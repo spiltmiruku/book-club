@@ -6,8 +6,10 @@ body {
 }
 
 .tag {
-  color: #70ADFF;
+  color: #70adff;
+  font-size: 25px;
   font-weight: normal;
+  letter-spacing: 8px;
 }
 
 .landing-display {
@@ -21,7 +23,7 @@ body {
 }
 
 .current-book {
-  border: blueviolet solid;
+  /* border: blueviolet solid; */
   color: #1a365c;
   width: 500px;
   display: flex;
@@ -33,13 +35,12 @@ body {
 }
 
 .current-book > h2 {
-    font-family: "Sacramento", serif;
-    font-size: 55px;
-    font-weight: normal;
-  }
+  font-family: "Sacramento", serif;
+  font-size: 55px;
+  font-weight: normal;
+}
 
 .book-display {
-  /* border: red solid; */
   background-color: #e0e5ec;
   height: 350px;
   width: 350px;
@@ -48,8 +49,9 @@ body {
 }
 
 .book-display > p {
-    margin-top: 280px;
-    font-size: 30px;
+  margin-top: 280px;
+  font-size: 30px;
+  letter-spacing: 5px;
 }
 
 #book-cover {
@@ -60,12 +62,58 @@ body {
 }
 
 .meeting-info {
-  border: cadetblue solid;
+  /* border: cadetblue solid; */
+  font-size: 20px;
   width: 500px;
+  margin: 75px 0 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.meet-date-time {
+  width: 350px;
+  height: 230px;
+  margin: 20px;
+  box-shadow: 9px 9px 16px #727d8b, -9px -9px 16px #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1px;
+  border-radius: 20px;
+
+}
+
+.discussion-leader {
+  width: 350px;
+  height: 120px;
+  margin: 20px;
+  box-shadow: 9px 9px 16px #727d8b, -9px -9px 16px #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1px;
+  border-radius: 20px;
+}
+
+.next-pick {
+  width: 350px;
+  height: 120px;
+  margin: 20px;
+  box-shadow: 9px 9px 16px #727d8b, -9px -9px 16px #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1px;
+  border-radius: 20px;
+
 }
 
 /* 
 font-family: 'Sacramento', serif;
-font-family: 'Marck Script', serif;
 font-family: 'Raleway', sans-serif; 
 */
