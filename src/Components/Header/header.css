@@ -1,13 +1,46 @@
 /* ----------HEADER COMPONENT---------- */
 
+.menu-bar {
+  width: 100vw;
+  background-color: #afcaff;
+  color: #1a365c;
+  box-shadow: 0 15px 20px #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
 
+.menu-bar a {
+  text-decoration: none;
+}
+.menu-bar a:visited {
+  color: #fff;
+}
 
+.title {
+  font-family: "Sacramento", serif;
+  color: #1a365c;
+  font-size: 45px;
+  text-align: left;
+  padding: 20px;
+  margin: 0;
+}
 
+.menu-select {
+  color: #1a365c;
+}
 
-
-
-
-
+.login {
+    border: springgreen solid;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* 

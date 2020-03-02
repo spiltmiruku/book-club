@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
+import { withRouter } from 'react-router-dom';
 import Header from './Components/Header/Header';
-import Landing from './Components/Landing/Landing';
+import routes from './routes';
 
 
 function App() {
   return (
     <div className="App">
-     {/* <Header /> */}
-     <Landing />
+     <Header />
+     {routes}
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);
