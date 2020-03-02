@@ -33,18 +33,24 @@
   color: #1a365c;
 }
 
-.login {
-    /* border: springgreen solid; */
-    color: #fff;
-    background-color: #1a365c;
-    height: 35px;
-    width: 100px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#menu-icon {
+  height: 20px;
+  margin-right: 6px;
 }
 
+.login {
+  color: #fff;
+  font-weight: bold;
+  background-color: #afcaff;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #93b9ff, -5px -5px 10px #C9DCFF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* 
 font-family: 'Sacramento', serif;
