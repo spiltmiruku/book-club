@@ -6,7 +6,8 @@ body {
 }
 
 .tag {
-  color: #1a365c;
+  color: #70ADFF;
+  font-weight: normal;
 }
 
 .landing-display {
@@ -16,10 +17,12 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding-bottom: 50px;
 }
 
 .current-book {
   border: blueviolet solid;
+  color: #1a365c;
   width: 500px;
   display: flex;
   flex-direction: column;
@@ -31,29 +34,29 @@ body {
 
 .current-book > h2 {
     font-family: "Sacramento", serif;
-    font-size: 45px;
+    font-size: 55px;
+    font-weight: normal;
   }
 
-.current-book > p {
-  font-size: 20px;
-  color: #1a365c;
-}
-
-
-
 .book-display {
-  border: red solid;
+  /* border: red solid; */
   background-color: #e0e5ec;
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   border-radius: 30px;
   box-shadow: 9px 9px 16px #727d8b, -9px -9px 16px #fff;
 }
 
+.book-display > p {
+    margin-top: 280px;
+    font-size: 30px;
+}
+
 #book-cover {
   height: 350px;
-  box-shadow: 10px 10px 15px gray;
+  /* box-shadow: 10px 10px 15px gray; */
   z-index: 10;
+  margin-bottom: -250px;
 }
 
 .meeting-info {

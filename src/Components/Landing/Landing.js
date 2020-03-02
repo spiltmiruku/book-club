@@ -12,8 +12,8 @@ const Landing = () => {
 
             <img id="book-cover" src={teachustooutgrow} alt="book cover" />
           <div className="book-display">
-          </div>
             <p>March 2020</p>
+          </div>
         </section>
 
         <section className="meeting-info">
