@@ -34,9 +34,12 @@
 }
 
 .login {
-    border: springgreen solid;
-    height: 30px;
+    /* border: springgreen solid; */
+    color: #fff;
+    background-color: #1a365c;
+    height: 35px;
     width: 100px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
