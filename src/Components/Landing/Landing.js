@@ -25,17 +25,17 @@ const Landing = () => {
         <section className="meeting-info">
   <div className="meet-date-time">
       <p>Upcoming Meeting: </p>
-      <p>{meetingDateTime}</p>
-      <p>{meetingPlace}</p>
+      <p style={{fontWeight: 'bold'}}>{meetingDateTime}</p>
+      <p style={{fontWeight: 'bold'}}>{meetingPlace}</p>
       </div>
 
           <div className="discussion-leader">
               <p>Discussion Leader: </p>
-              <p>{discussionLeader}</p>
+              <p style={{fontWeight: 'bold'}}>{discussionLeader}</p>
               </div>
           <div className="next-pick">
               <p>Next Pick: </p>
-              <p>{nextPick}</p>
+              <p style={{fontWeight: 'bold'}}>{nextPick}</p>
               </div>
         </section>
       </div>
