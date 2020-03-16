@@ -13,7 +13,7 @@ const Header = () => {
     <section className='menu-bar'>
         <h1 className='title'>Book Club</h1>
         <Link to='/'><span>Home</span></Link>
-        <div className='menu-select'>
+        {/* <div className='menu-select'>
         <img id="menu-icon" src={bookstack} alt="stack of books icon" />
             Previous Books
             </div>
@@ -26,7 +26,7 @@ const Header = () => {
             Host a Meeting
             </div>
 
-        <div className='login'>Login</div>
+        <div className='login'>Login</div> */}
     </section>
 </div>
     )

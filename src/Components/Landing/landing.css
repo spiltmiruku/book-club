@@ -10,8 +10,7 @@ body {
   font-size: 25px;
   font-weight: normal;
   letter-spacing: 8px;
-  margin:  30px 0 -30px 0;
-
+  margin: 30px 0 -30px 0;
 }
 
 .landing-display {
@@ -47,7 +46,7 @@ body {
   height: 350px;
   width: 350px;
   border-radius: 30px;
-  box-shadow: 9px 9px 16px #A1ACBB, -9px -9px 16px #fff;
+  box-shadow: 9px 9px 16px #a1acbb, -9px -9px 16px #fff;
 }
 
 .book-display > p {
@@ -58,7 +57,7 @@ body {
 
 #book-cover {
   height: 350px;
-  box-shadow: -10px -10px 25px #A1ACBB;
+  box-shadow: -10px -10px 25px #a1acbb;
   z-index: 10;
   margin-bottom: -250px;
 }
@@ -82,7 +81,7 @@ body {
   width: 350px;
   height: 230px;
   margin: 20px;
-  box-shadow: 9px 9px 20px #A1ACBB, -9px -9px 20px #fff;
+  box-shadow: 9px 9px 20px #a1acbb, -9px -9px 20px #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,7 +93,7 @@ body {
   width: 350px;
   height: 120px;
   margin: 20px;
-  box-shadow: 9px 9px 20px #A1ACBB, -9px -9px 20px #fff;
+  box-shadow: 9px 9px 20px #a1acbb, -9px -9px 20px #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,10 +105,21 @@ body {
   width: 350px;
   height: 120px;
   margin: 20px;
-  box-shadow: 9px 9px 20px #A1ACBB, -9px -9px 20px #fff;
+  box-shadow: 9px 9px 20px #a1acbb, -9px -9px 20px #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   line-height: 1px;
   border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .landing-display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
 }

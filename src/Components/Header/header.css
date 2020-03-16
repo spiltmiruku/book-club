@@ -33,7 +33,7 @@
   color: #1a365c;
 }
 
-#menu-icon {
+/* #menu-icon {
   height: 20px;
   margin-right: 6px;
 }
@@ -50,6 +50,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+@media (max-width: 500px) {
+  .menu-bar {
+    width: 100%;
+  }
 }
 
 /* 
