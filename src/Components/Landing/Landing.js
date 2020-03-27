@@ -3,8 +3,8 @@ import "./landing.css";
 import teachustooutgrow from "../../resources/teachustooutgrow.jpg";
 
 const Landing = () => {
-    let meetingPlace = `Trent's place`;
-    let meetingDateTime = 'March 22nd, 2020, 11AM';
+    let meetingPlace = `Online via App, TBD`;
+    let meetingDateTime = 'March 29th, 2020, 11AM';
     let bookMonth = 'March 2020';
     let discussionLeader = 'Kate';
     let nextPick = 'Dale';
