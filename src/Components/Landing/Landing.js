@@ -1,13 +1,13 @@
 import React from "react";
 import "./landing.css";
-import teachustooutgrow from "../../resources/teachustooutgrow.jpg";
+import currentbook from "../../resources/currentbook.jpg";
 
 const Landing = () => {
-    let meetingPlace = `Online via App, TBD`;
-    let meetingDateTime = 'March 29th, 2020, 11AM';
-    let bookMonth = 'March 2020';
-    let discussionLeader = 'Kate';
-    let nextPick = 'Dale';
+    let meetingPlace = `Online via Discord`;
+    let meetingDateTime = 'April TBD';
+    let bookMonth = 'April 2020';
+    let discussionLeader = 'Dale';
+    let nextPick = 'Stephen';
 
   return (
     <div>
@@ -16,7 +16,7 @@ const Landing = () => {
         <section className="current-book">
         <h2>book of the month</h2>
 
-            <img id="book-cover" src={teachustooutgrow} alt="book cover" />
+            <img id="book-cover" src={currentbook} alt="book cover" />
           <div className="book-display">
             <p>{bookMonth}</p>
           </div>
