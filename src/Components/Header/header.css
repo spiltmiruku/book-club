@@ -1,16 +1,18 @@
 /* ----------HEADER COMPONENT---------- */
 
 .menu-bar {
-  width: 100vw;
+  width: 100%;
   background-color: #afcaff;
   color: #1a365c;
   box-shadow: 0 15px 20px #fff;
-  display: flex;
+  display: block;
+  /* display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-around; */
   align-items: center;
   align-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-bar a {
@@ -21,8 +23,10 @@
 }
 
 .title {
+  width: fit-content;
   font-family: "Sacramento", serif;
   color: #1a365c;
+  display: block;
   font-size: 45px;
   text-align: left;
   padding: 20px;
@@ -32,6 +36,7 @@
 .menu-select {
   color: #1a365c;
 }
+
 
 /* #menu-icon {
   height: 20px;
@@ -55,6 +60,9 @@
 @media (max-width: 500px) {
   .menu-bar {
     width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

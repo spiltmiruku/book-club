@@ -4,10 +4,10 @@ import currentbook from "../../resources/currentbook.jpg";
 
 const Landing = () => {
     let meetingPlace = `Online via Discord`;
-    let meetingDateTime = 'April 26th, 2020';
-    let bookMonth = 'April 2020';
-    let discussionLeader = 'Dale';
-    let nextPick = 'Stephen';
+    let meetingDateTime = 'June 21st, 2020 time TBD';
+    let bookMonth = 'June 2020';
+    let discussionLeader = 'Corey';
+    let nextPick = 'Catherine';
 
   return (
     <div>

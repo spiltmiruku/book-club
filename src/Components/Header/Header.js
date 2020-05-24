@@ -11,8 +11,8 @@ const Header = () => {
 <div className='side-menu'>
 
     <section className='menu-bar'>
-        <h1 className='title'>Book Club</h1>
-        <Link to='/'><span>Home</span></Link>
+    {/* <Link to='/'> </Link> */}
+    <h1 className='title'>Book Club</h1>
         {/* <div className='menu-select'>
         <img id="menu-icon" src={bookstack} alt="stack of books icon" />
             Previous Books
