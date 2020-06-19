@@ -4,7 +4,7 @@ import currentbook from "../../resources/currentbook.jpg";
 
 const Landing = () => {
     let meetingPlace = `Online via Discord`;
-    let meetingDateTime = 'June 21st, 2020 time TBD';
+    let meetingDateTime = 'June 28th, 2020 time TBD';
     let bookMonth = 'June 2020';
     let discussionLeader = 'Corey';
     let nextPick = 'Catherine';
