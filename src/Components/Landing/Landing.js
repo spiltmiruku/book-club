@@ -1,13 +1,13 @@
 import React from "react";
 import "./landing.css";
-import currentbook from "../../resources/currentbook.png";
+import currentbook from "../../resources/currentbook.jpg";
 
 const Landing = () => {
     let meetingPlace = `Online via Discord`;
-    let meetingDateTime = 'July 26th, 2020 time TBD';
-    let bookMonth = 'July 2020';
-    let discussionLeader = 'Catherine';
-    let nextPick = 'Brandon';
+    let meetingDateTime = 'August 23rd, 2020, 15:00 MST';
+    let bookMonth = 'August 2020';
+    let discussionLeader = 'Brandon';
+    let nextPick = 'Landon';
 
   return (
     <div>
