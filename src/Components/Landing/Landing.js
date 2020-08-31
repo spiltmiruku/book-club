@@ -7,7 +7,7 @@ const Landing = () => {
     let meetingDateTime = 'Sept 27th, 2020';
     let bookMonth = 'September 2020';
     let discussionLeader = 'Landon';
-    let nextPick = '';
+    let nextPick = 'Tink';
 
   return (
     <div>
