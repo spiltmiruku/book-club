@@ -1,15 +1,134 @@
 import React from "react";
 import "./history.css";
+
+import lysistrata from "../../resources/previousbooks/lysistrata-september-2019.jpg";
+
+import lovedone from "../../resources/previousbooks/the-loved-one-january-2020.jpg";
+
+import outgrowmadness from "../../resources/previousbooks/teach-us-to-outgrow-our-madness-march-2020.jpg";
+import moneycantbuy from "../../resources/previousbooks/what-money-cant-buy-april-2020.jpg";
+import freedomfromknown from "../../resources/previousbooks/freedom-from-the-known-may-2020.jpg";
+import physicsphilosophy from "../../resources/previousbooks/physics-and-philosophy-june-2020.jpg";
 import argonauts from "../../resources/previousbooks/the-argonauts-july-2020.jpg";
+import noexit from "../../resources/previousbooks/no-exit-aug-2020.jpg";
+import trial from "../../resources/previousbooks/the-trial-sept-2020.jpg";
 
 const History = () => {
   return (
     <main className="history-main">
+      {/* TEMPLATE */}
+      {/* 
+    <section className="prev-book-display">
+        <img id="prev-book-cover" src={}></img>
+        <div className="prev-book-info">
+          <p className="book-month"></p>
+          <p className="book-selector"></p>
+        </div>
+      </section> 
+      */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={trial}></img>
+        <div className="prev-book-info">
+          <p className="book-month">September 2020</p>
+          <p className="book-selector">Landon</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={noexit}></img>
+        <div className="prev-book-info">
+          <p className="book-month">August 2020</p>
+          <p className="book-selector">Brandon</p>
+        </div>
+      </section>
+
       <section className="prev-book-display">
         <img id="prev-book-cover" src={argonauts}></img>
         <div className="prev-book-info">
           <p className="book-month">July 2020</p>
           <p className="book-selector">Catherine</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={physicsphilosophy}></img>
+        <div className="prev-book-info">
+          <p className="book-month">June 2020</p>
+          <p className="book-selector">Corey</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={freedomfromknown}></img>
+        <div className="prev-book-info">
+          <p className="book-month">May 2020</p>
+          <p className="book-selector">Stephen</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={moneycantbuy}></img>
+        <div className="prev-book-info">
+          <p className="book-month">April 2020</p>
+          <p className="book-selector">Dale</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={outgrowmadness}></img>
+        <div className="prev-book-info">
+          <p className="book-month">March 2020</p>
+          <p className="book-selector">Kate</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={lovedone}></img>
+        <div className="prev-book-info">
+          <p className="book-month">February 2020</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
+
+      {/* 
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={}></img>
+        <div className="prev-book-info">
+          <p className="book-month">January 2020</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
+    */}
+      {/*
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={}></img>
+        <div className="prev-book-info">
+          <p className="book-month">December 2019</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={}></img>
+        <div className="prev-book-info">
+          <p className="book-month">November 2019</p>
+        </div>
+      </section> 
+      
+<section className="prev-book-display">
+        <img id="prev-book-cover" src={}></img>
+        <div className="prev-book-info">
+          <p className="book-month">October 2019</p>
+        </div>
+      </section>
+
+      */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={lysistrata}></img>
+        <div className="prev-book-info">
+          <p className="book-month">September 2019</p>
         </div>
       </section>
     </main>

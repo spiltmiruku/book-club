@@ -10,6 +10,7 @@
 
 .prev-book-display {
   border: solid salmon 3px;
+  margin: 50px;
 }
 
 #prev-book-cover {
@@ -31,4 +32,11 @@
   justify-content: flex-end;
   align-items: stretch;
   align-content: space-around;
+}
+
+.book-month {
+    font-weight: bold;
+}
+
+.book-selector {
 }
