@@ -1,10 +1,12 @@
 import React from "react";
 import "./history.css";
 
+import ourkids from "../../resources/previousbooks/our-kids-the-american-dream-in-crisis-august-2019.jpg";
 import lysistrata from "../../resources/previousbooks/lysistrata-september-2019.jpg";
 
-import lovedone from "../../resources/previousbooks/the-loved-one-january-2020.jpg";
-
+import manthursday from "../../resources/previousbooks/the-man-who-was-thursday-december-2019.jpg";
+import mastermargarita from "../../resources/previousbooks/the-master-and-margarita-january-2020.jpg";
+import lovedone from "../../resources/previousbooks/the-loved-one-february-2020.jpg";
 import outgrowmadness from "../../resources/previousbooks/teach-us-to-outgrow-our-madness-march-2020.jpg";
 import moneycantbuy from "../../resources/previousbooks/what-money-cant-buy-april-2020.jpg";
 import freedomfromknown from "../../resources/previousbooks/freedom-from-the-known-may-2020.jpg";
@@ -87,32 +89,32 @@ const History = () => {
         <img id="prev-book-cover" src={lovedone}></img>
         <div className="prev-book-info">
           <p className="book-month">February 2020</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Catherine</p>
         </div>
       </section>
 
-      {/* 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={}></img>
+        <img id="prev-book-cover" src={mastermargarita}></img>
         <div className="prev-book-info">
           <p className="book-month">January 2020</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Landon</p>
         </div>
       </section>
-    */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={manthursday}></img>
+        <div className="prev-book-info">
+          <p className="book-month">December 2019</p>
+          <p className="book-selector">Gabe</p>
+        </div>
+      </section>
+
       {/*
       <section className="prev-book-display">
         <img id="prev-book-cover" src={}></img>
         <div className="prev-book-info">
-          <p className="book-month">December 2019</p>
-          <p className="book-selector"></p>
-        </div>
-      </section>
-
-      <section className="prev-book-display">
-        <img id="prev-book-cover" src={}></img>
-        <div className="prev-book-info">
           <p className="book-month">November 2019</p>
+          <p className="book-selector"></p>
         </div>
       </section> 
       
@@ -120,6 +122,7 @@ const History = () => {
         <img id="prev-book-cover" src={}></img>
         <div className="prev-book-info">
           <p className="book-month">October 2019</p>
+          <p className="book-selector"></p>
         </div>
       </section>
 
@@ -129,6 +132,15 @@ const History = () => {
         <img id="prev-book-cover" src={lysistrata}></img>
         <div className="prev-book-info">
           <p className="book-month">September 2019</p>
+          <p className="book-selector">Brandon</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={ourkids}></img>
+        <div className="prev-book-info">
+          <p className="book-month">August 2019</p>
+          <p className="book-selector">???</p>
         </div>
       </section>
     </main>
