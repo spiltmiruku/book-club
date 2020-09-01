@@ -16,7 +16,7 @@ const Header = () => {
         {/* <Link to="/">HOME</Link> */}
         <Link to="/previousbooks">
           <img id="menu-icon" src={bookstack} alt="stack of books icon" />
-          Previous Titles
+          Previous Reads
         </Link>
 
         {/* 
