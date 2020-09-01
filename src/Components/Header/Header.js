@@ -14,9 +14,9 @@ const Header = () => {
         </Link>
 
         {/* <Link to="/">HOME</Link> */}
-        <Link to="/history">
+        <Link to="/previousbooks">
           <img id="menu-icon" src={bookstack} alt="stack of books icon" />
-          Previous Picks
+          Previous Titles
         </Link>
 
         {/* 
