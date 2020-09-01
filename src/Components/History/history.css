@@ -9,7 +9,7 @@
 }
 
 .prev-book-display {
-  border: solid salmon 3px;
+  /* border: solid salmon 3px; */
   margin: 30px;
 }
 
@@ -38,5 +38,5 @@
     font-weight: bold;
 }
 
-.book-selector {
-}
+/* .book-selector {
+} */
