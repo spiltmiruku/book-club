@@ -2,19 +2,23 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
 import bookstack from "../../resources/bookstack.svg";
-import location from "../../resources/location.svg";
-import thumbsup from "../../resources/thumbsup.svg";
+// import location from '../../resources/location.svg';
+// import thumbsup from '../../resources/thumbsup.svg';
 
 const Header = () => {
   return (
-    <div className="side-menu">
+    <nav className="side-menu">
       <section className="menu-bar">
-        <Link to="/"> HOME </Link>
-        <h1 className="title">Book Club</h1>
-        <div className="menu-select">
+        <Link to="/">
+          <h1 className="title">Book Club</h1>
+        </Link>
+
+        {/* <Link to="/">HOME</Link> */}
+        <Link to="/history">
           <img id="menu-icon" src={bookstack} alt="stack of books icon" />
-          Previous Books
-        </div>
+          Previous Picks
+        </Link>
+
         {/* 
         <div className='menu-select'>
         <img id="menu-icon" src={location} alt="location icon" />
@@ -27,7 +31,7 @@ const Header = () => {
 
         <div className='login'>Login</div> */}
       </section>
-    </div>
+    </nav>
   );
 };
 
