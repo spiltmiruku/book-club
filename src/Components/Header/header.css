@@ -4,6 +4,7 @@
   width: 100%;
   background-color: #afcaff;
   color: #1a365c;
+  font-size: 20px;
   box-shadow: 0 15px 20px #fff;
   display: block;
   display: flex;
@@ -24,6 +25,7 @@
 }
 .menu-bar a:visited {
   color: #fff;
+  font-weight: 700;
 }
 
 .title {
