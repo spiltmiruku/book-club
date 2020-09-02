@@ -14,10 +14,12 @@ const Header = () => {
         </Link>
 
         {/* <Link to="/">HOME</Link> */}
-        <Link to="/previousbooks">
-          <img id="menu-icon" src={bookstack} alt="stack of books icon" />
-          Previous Reads
-        </Link>
+        <div className='sm-menu-wrapper'>
+          <Link to="/previousbooks">
+            <img id="menu-icon" src={bookstack} alt="stack of books icon" />
+            Previous Reads
+          </Link>
+        </div>
 
         {/* 
         <div className='menu-select'>

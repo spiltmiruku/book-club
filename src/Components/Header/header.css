@@ -18,15 +18,31 @@
   margin-bottom: 50px;
 }
 
+.sm-menu-wrapper {
+  font-family: 'Raleway', sans-serif; 
+  font-weight: 700;
+  color: #1a365c;
+  margin-right: 40px;
+  height: 80px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px #9dbaf3, -10px -10px 15px #bdd2ff;
+  /* border-radius: 50% 60% / 100% 0%;  */
+}
+
 .menu-bar a {
   text-decoration: none;
-  color: #1a365c;
   margin: 10px 30px;
 }
 .menu-bar a:visited {
-  color: #fff;
-  font-weight: 700;
+  color: #1a365c;
 }
+
+/* .sm-menu-wrapper a:link {
+} */
 
 .title {
   width: fit-content;
