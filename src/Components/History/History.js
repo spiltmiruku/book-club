@@ -33,7 +33,7 @@ const History = () => {
       */}
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={trial}></img>
+        <img id="prev-book-cover" src={trial} alt="Franz Kafka The Trial"></img>
         <div className="prev-book-info">
           <p className="book-month">September 2020</p>
           <p className="book-selector">Landon</p>
@@ -41,7 +41,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={noexit}></img>
+        <img id="prev-book-cover" src={noexit} alt="Jean Paul Sartre - No Exit"></img>
         <div className="prev-book-info">
           <p className="book-month">August 2020</p>
           <p className="book-selector">Brandon</p>
@@ -49,7 +49,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={argonauts}></img>
+        <img id="prev-book-cover" src={argonauts} alt="Maggie Nelson - The Argonauts"></img>
         <div className="prev-book-info">
           <p className="book-month">July 2020</p>
           <p className="book-selector">Catherine</p>
@@ -57,7 +57,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={physicsphilosophy}></img>
+        <img id="prev-book-cover" src={physicsphilosophy} alt="James Jeans - Physics and Philosophy"></img>
         <div className="prev-book-info">
           <p className="book-month">June 2020</p>
           <p className="book-selector">Corey</p>
@@ -65,7 +65,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={freedomfromknown}></img>
+        <img id="prev-book-cover" src={freedomfromknown} alt="J. Krishnamurti - Freedom From the Known"></img>
         <div className="prev-book-info">
           <p className="book-month">May 2020</p>
           <p className="book-selector">Stephen</p>
@@ -73,7 +73,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={moneycantbuy}></img>
+        <img id="prev-book-cover" src={moneycantbuy} alt="Michael J. Sandel - What Money Can't Buy"></img>
         <div className="prev-book-info">
           <p className="book-month">April 2020</p>
           <p className="book-selector">Dale</p>
@@ -81,7 +81,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={outgrowmadness}></img>
+        <img id="prev-book-cover" src={outgrowmadness} alt="Kenzaburo Oe - Teach Us To Outgrow Our Madness"></img>
         <div className="prev-book-info">
           <p className="book-month">March 2020</p>
           <p className="book-selector">Kate</p>
@@ -89,7 +89,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={lovedone}></img>
+        <img id="prev-book-cover" src={lovedone} alt="Evelyn Waugh - The Loved One"></img>
         <div className="prev-book-info">
           <p className="book-month">February 2020</p>
           <p className="book-selector">Tink</p>
@@ -97,7 +97,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={mastermargarita}></img>
+        <img id="prev-book-cover" src={mastermargarita} alt="Mikhail Bulgakov - The Master & Margarita"></img>
         <div className="prev-book-info">
           <p className="book-month">January 2020</p>
           <p className="book-selector">Gabe</p>
@@ -113,7 +113,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={manthursday}></img>
+        <img id="prev-book-cover" src={manthursday} alt="G. K. Chesterton - The Man Who Was Thursday"></img>
         <div className="prev-book-info">
           <p className="book-month">November 2019</p>
           <p className="book-selector">Landon</p>
@@ -121,7 +121,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={belljar}></img>
+        <img id="prev-book-cover" src={belljar} alt="Sylvia Plath - The Bell Jar"></img>
         <div className="prev-book-info">
           <p className="book-month">October 2019</p>
           <p className="book-selector">Catherine</p>
@@ -129,7 +129,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={lysistrata}></img>
+        <img id="prev-book-cover" src={lysistrata} alt="Aristophanes - Lysistrata"></img>
         <div className="prev-book-info">
           <p className="book-month">September 2019</p>
           <p className="book-selector">Brandon</p>
@@ -137,7 +137,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={ourkids}></img>
+        <img id="prev-book-cover" src={ourkids} alt="Robert D. Putnam - Our Kids: The American Dream in Crisis"></img>
         <div className="prev-book-info">
           <p className="book-month">August 2019</p>
           <p className="book-selector">Stephen</p>
@@ -145,7 +145,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={oscarwao}></img>
+        <img id="prev-book-cover" src={oscarwao} alt="Junot Diaz - The Brief Wondrous Life of Oscar Wao"></img>
         <div className="prev-book-info">
           <p className="book-month">June/July 2019</p>
           <p className="book-selector">Trenton</p>
@@ -153,7 +153,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={funhome}></img>
+        <img id="prev-book-cover" src={funhome} alt="Alison Bechdel - Fun Home"></img>
         <div className="prev-book-info">
           <p className="book-month">May 2019</p>
           <p className="book-selector">Trenton</p>
