@@ -22,9 +22,11 @@
   text-decoration: none;
   margin: 10px 30px;
 }
+
 .menu-bar a:visited {
   color: #1a365c;
 }
+
 .menu-bar a:active {
   color: #fff;
 }
