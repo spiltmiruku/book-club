@@ -33,7 +33,7 @@ const History = () => {
       */}
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={trial} alt="Franz Kafka The Trial"></img>
+        <img id="prev-book-cover" src={trial} alt="Franz Kafka - The Trial"></img>
         <div className="prev-book-info">
           <p className="book-month">September 2020</p>
           <p className="book-selector">Landon</p>
@@ -105,7 +105,7 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={tellonmountain}></img>
+        <img id="prev-book-cover" src={tellonmountain} alt="James Baldwin - Go Tell It On The Mountain"></img>
         <div className="prev-book-info">
           <p className="book-month">December 2020</p>
           <p className="book-selector">Trenton</p>
