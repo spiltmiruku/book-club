@@ -17,6 +17,7 @@ import physicsphilosophy from "../../resources/previousbooks/physics-and-philoso
 import argonauts from "../../resources/previousbooks/the-argonauts-july-2020.jpg";
 import noexit from "../../resources/previousbooks/no-exit-aug-2020.jpg";
 import trial from "../../resources/previousbooks/the-trial-sept-2020.jpg";
+import stardust from '../../resources/previousbooks/stardust-oct-2020.jpg';
 
 const History = () => {
   return (
@@ -31,6 +32,14 @@ const History = () => {
         </div>
       </section> 
       */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={stardust} alt="Neil Gaiman - Stardust"></img>
+        <div className="prev-book-info">
+          <p className="book-month">October 2020</p>
+          <p className="book-selector">Tink</p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={trial} alt="Franz Kafka - The Trial"></img>
