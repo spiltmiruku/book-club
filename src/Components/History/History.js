@@ -18,7 +18,8 @@ import argonauts from "../../resources/previousbooks/the-argonauts-july-2020.jpg
 import noexit from "../../resources/previousbooks/no-exit-aug-2020.jpg";
 import trial from "../../resources/previousbooks/the-trial-sept-2020.jpg";
 import stardust from "../../resources/previousbooks/stardust-oct-2020.jpg";
-import darkconstellations from "../../resources/previousbooks/dark-constellations-nov-2020.jpg"
+import darkconstellations from "../../resources/previousbooks/dark-constellations-nov-2020.jpg";
+import larkinpoems from "../../resources/previousbooks/larkin-collected-poems-december-2020.jpg";
 
 const History = () => {
   return (
@@ -35,8 +36,23 @@ const History = () => {
       */}
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={darkconstellations}
-        alt="Pola Oloixarac - Dark Constellations"></img>
+        <img
+          id="prev-book-cover"
+          src={larkinpoems}
+          alt="Philip Larkin - Collected Poems"
+        ></img>
+        <div className="prev-book-info">
+          <p className="book-month">December 2020</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={darkconstellations}
+          alt="Pola Oloixarac - Dark Constellations"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">November 2020</p>
           <p className="book-selector">Jonah</p>
