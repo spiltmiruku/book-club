@@ -20,6 +20,7 @@ import trial from "../../resources/previousbooks/the-trial-sept-2020.jpg";
 import stardust from "../../resources/previousbooks/stardust-oct-2020.jpg";
 import darkconstellations from "../../resources/previousbooks/dark-constellations-nov-2020.jpg";
 import larkinpoems from "../../resources/previousbooks/larkin-collected-poems-december-2020.jpg";
+import kondotidyingup from "../../resources/previousbooks/life-changing-magic-of-tidying-up-jan-2021.jpg";
 
 const History = () => {
   return (
@@ -36,6 +37,14 @@ const History = () => {
       */}
 
       <section className="prev-book-display">
+        <img id="prev-book-cover" src={kondotidyingup} alt="Marie Kondo - The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing"></img>
+        <div className="prev-book-info">
+          <p className="book-month">January 2021</p>
+          <p className="book-selector">Kate</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
         <img
           id="prev-book-cover"
           src={larkinpoems}
@@ -43,7 +52,7 @@ const History = () => {
         ></img>
         <div className="prev-book-info">
           <p className="book-month">December 2020</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Dale</p>
         </div>
       </section>
 
