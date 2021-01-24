@@ -21,6 +21,7 @@ import stardust from "../../resources/previousbooks/stardust-oct-2020.jpg";
 import darkconstellations from "../../resources/previousbooks/dark-constellations-nov-2020.jpg";
 import larkinpoems from "../../resources/previousbooks/larkin-collected-poems-december-2020.jpg";
 import kondotidyingup from "../../resources/previousbooks/life-changing-magic-of-tidying-up-jan-2021.jpg";
+import gilead from '../../resources/previousbooks/gilead-feb-2021.jpg'
 
 const History = () => {
   return (
@@ -37,7 +38,19 @@ const History = () => {
       */}
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={kondotidyingup} alt="Marie Kondo - The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing"></img>
+        <img id="prev-book-cover" src={gilead} alt="Marilynne Robinson - Gilead"></img>
+        <div className="prev-book-info">
+          <p className="book-month">February 2021</p>
+          <p className="book-selector">Catherine</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={kondotidyingup}
+          alt="Marie Kondo - The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">January 2021</p>
           <p className="book-selector">Kate</p>
