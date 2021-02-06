@@ -41,7 +41,7 @@ const History = () => {
         <img id="prev-book-cover" src={gilead} alt="Marilynne Robinson - Gilead"></img>
         <div className="prev-book-info">
           <p className="book-month">February 2021</p>
-          <p className="book-selector">Catherine</p>
+          <p className="book-selector">Trenton</p>
         </div>
       </section>
 
