@@ -21,7 +21,8 @@ import stardust from "../../resources/previousbooks/stardust-oct-2020.jpg";
 import darkconstellations from "../../resources/previousbooks/dark-constellations-nov-2020.jpg";
 import larkinpoems from "../../resources/previousbooks/larkin-collected-poems-december-2020.jpg";
 import kondotidyingup from "../../resources/previousbooks/life-changing-magic-of-tidying-up-jan-2021.jpg";
-import gilead from '../../resources/previousbooks/gilead-feb-2021.jpg'
+import gilead from "../../resources/previousbooks/gilead-feb-2021.jpg";
+import cinema from "../../resources/previousbooks/women's-cinema-world-cinema-mar-2021.jpg";
 
 const History = () => {
   return (
@@ -38,7 +39,19 @@ const History = () => {
       */}
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={gilead} alt="Marilynne Robinson - Gilead"></img>
+        <img id="prev-book-cover" src={cinema} alt="Patricia White - Women's Cinema, World Cinema"></img>
+        <div className="prev-book-info">
+          <p className="book-month">March 2021</p>
+          <p className="book-selector">Catherine</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={gilead}
+          alt="Marilynne Robinson - Gilead"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">February 2021</p>
           <p className="book-selector">Trenton</p>
