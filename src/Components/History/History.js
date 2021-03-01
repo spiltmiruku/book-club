@@ -37,6 +37,14 @@ const History = () => {
         </div>
       </section> 
       */}
+      
+    {/* <section className="prev-book-display">
+        <img id="prev-book-cover" src={} alt=""></img>
+        <div className="prev-book-info">
+          <p className="book-month">April 2021</p>
+          <p className="book-selector">Angie</p>
+        </div>
+      </section>  */}
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={cinema} alt="Patricia White - Women's Cinema, World Cinema"></img>
