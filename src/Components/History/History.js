@@ -23,6 +23,7 @@ import larkinpoems from "../../resources/previousbooks/larkin-collected-poems-de
 import kondotidyingup from "../../resources/previousbooks/life-changing-magic-of-tidying-up-jan-2021.jpg";
 import gilead from "../../resources/previousbooks/gilead-feb-2021.jpg";
 import cinema from "../../resources/previousbooks/women's-cinema-world-cinema-mar-2021.jpg";
+import werenone from "../../resources/previousbooks/and-then-there-where-none-apr-2021.jpg"
 
 const History = () => {
   return (
@@ -45,6 +46,14 @@ const History = () => {
           <p className="book-selector">Angie</p>
         </div>
       </section>  */}
+
+    <section className="prev-book-display">
+        <img id="prev-book-cover" src={werenone} alt="Agatha Christie - And Then There Were None"></img>
+        <div className="prev-book-info">
+          <p className="book-month">April 2021</p>
+          <p className="book-selector">Angie</p>
+        </div>
+      </section> 
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={cinema} alt="Patricia White - Women's Cinema, World Cinema"></img>
