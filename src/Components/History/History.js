@@ -24,6 +24,7 @@ import kondotidyingup from "../../resources/previousbooks/life-changing-magic-of
 import gilead from "../../resources/previousbooks/gilead-feb-2021.jpg";
 import cinema from "../../resources/previousbooks/women's-cinema-world-cinema-mar-2021.jpg";
 import werenone from "../../resources/previousbooks/and-then-there-were-none-apr-2021.jpg"
+import ethicalslut from "../../resources/previousbooks/the-ethical-slut-may-2021.jpg"
 
 const History = () => {
   return (
@@ -39,13 +40,13 @@ const History = () => {
       </section> 
       */}
       
-    {/* <section className="prev-book-display">
-        <img id="prev-book-cover" src={} alt=""></img>
+    <section className="prev-book-display">
+        <img id="prev-book-cover" src={ethicalslut} alt="Janet W. Hardy & Dossie Easton - The Ethical Slut"></img>
         <div className="prev-book-info">
-          <p className="book-month">April 2021</p>
-          <p className="book-selector">Angie</p>
+          <p className="book-month">May 2021</p>
+          <p className="book-selector">Brandon</p>
         </div>
-      </section>  */}
+      </section> 
 
     <section className="prev-book-display">
         <img id="prev-book-cover" src={werenone} alt="Agatha Christie - And Then There Were None"></img>
