@@ -25,6 +25,7 @@ import gilead from "../../resources/previousbooks/gilead-feb-2021.jpg";
 import cinema from "../../resources/previousbooks/women's-cinema-world-cinema-mar-2021.jpg";
 import werenone from "../../resources/previousbooks/and-then-there-were-none-apr-2021.jpg"
 import ethicalslut from "../../resources/previousbooks/the-ethical-slut-may-2021.jpg"
+import railroad from "../../resources/previousbooks/the-underground-railroad-june-2021.jpg"
 
 const History = () => {
   return (
@@ -39,7 +40,16 @@ const History = () => {
         </div>
       </section> 
       */}
-      
+
+
+    <section className="prev-book-display">
+      <img id="prev-book-cover" src={railroad} alt="Colson Whitehead - The Underground Railroad"></img>
+      <div className="prev-book-info">
+        <p className="book-month">June 2021</p>
+        <p className="book-selector">Landon</p>
+      </div>
+    </section> 
+
     <section className="prev-book-display">
         <img id="prev-book-cover" src={ethicalslut} alt="Janet W. Hardy & Dossie Easton - The Ethical Slut"></img>
         <div className="prev-book-info">
