@@ -26,6 +26,7 @@ import cinema from "../../resources/previousbooks/women's-cinema-world-cinema-ma
 import werenone from "../../resources/previousbooks/and-then-there-were-none-apr-2021.jpg"
 import ethicalslut from "../../resources/previousbooks/the-ethical-slut-may-2021.jpg"
 import railroad from "../../resources/previousbooks/the-underground-railroad-june-2021.jpg"
+import timetravel from '../../resources/previousbooks/time-traveler-guide-july-2021.jpg'
 
 const History = () => {
   return (
@@ -41,6 +42,14 @@ const History = () => {
       </section> 
       */}
 
+   
+    <section className="prev-book-display">
+        <img id="prev-book-cover" src={timetravel} alt="Ian Mortimer - The Time Traveler's Guide to Medieval England"></img>
+        <div className="prev-book-info">
+          <p className="book-month">July 2021</p>
+          <p className="book-selector">Tink</p>
+        </div>
+      </section>
 
     <section className="prev-book-display">
       <img id="prev-book-cover" src={railroad} alt="Colson Whitehead - The Underground Railroad"></img>
