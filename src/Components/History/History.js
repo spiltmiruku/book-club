@@ -27,6 +27,7 @@ import werenone from "../../resources/previousbooks/and-then-there-were-none-apr
 import ethicalslut from "../../resources/previousbooks/the-ethical-slut-may-2021.jpg"
 import railroad from "../../resources/previousbooks/the-underground-railroad-june-2021.jpg"
 import timetravel from '../../resources/previousbooks/time-traveler-guide-july-2021.jpg'
+import refugees from '../../resources/previousbooks/refugees-aug-2021.jpg'
 
 const History = () => {
   return (
@@ -42,7 +43,15 @@ const History = () => {
       </section> 
       */}
 
-   
+
+    <section className="prev-book-display">
+        <img id="prev-book-cover" src={refugees} alt="Viet Thanh Nguyen - The Refugees"></img>
+        <div className="prev-book-info">
+          <p className="book-month">August 2021</p>
+          <p className="book-selector">Jonah</p>
+        </div>
+      </section> 
+
     <section className="prev-book-display">
         <img id="prev-book-cover" src={timetravel} alt="Ian Mortimer - The Time Traveler's Guide to Medieval England"></img>
         <div className="prev-book-info">
