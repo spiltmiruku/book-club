@@ -28,6 +28,7 @@ import ethicalslut from "../../resources/previousbooks/the-ethical-slut-may-2021
 import railroad from "../../resources/previousbooks/the-underground-railroad-june-2021.jpg"
 import timetravel from '../../resources/previousbooks/time-traveler-guide-july-2021.jpg'
 import refugees from '../../resources/previousbooks/refugees-aug-2021.jpg'
+import alchemist from '../../resources/previousbooks/alchemist-sept-2021.jpg'
 
 const History = () => {
   return (
@@ -43,6 +44,16 @@ const History = () => {
       </section> 
       */}
 
+
+      
+    <section className="prev-book-display">
+        <img id="prev-book-cover" src={alchemist} alt="Paulo Coelho - The Alchemist"></img>
+        <div className="prev-book-info">
+          <p className="book-month">September 2021</p>
+          <p className="book-selector">Dale</p>
+        </div>
+      </section> 
+     
 
     <section className="prev-book-display">
         <img id="prev-book-cover" src={refugees} alt="Viet Thanh Nguyen - The Refugees"></img>
