@@ -29,6 +29,7 @@ import railroad from "../../resources/previousbooks/the-underground-railroad-jun
 import timetravel from '../../resources/previousbooks/time-traveler-guide-july-2021.jpg'
 import refugees from '../../resources/previousbooks/refugees-aug-2021.jpg'
 import alchemist from '../../resources/previousbooks/alchemist-sept-2021.jpg'
+import war from '../../resources/previousbooks/war-oct-2021.jpg'
 
 const History = () => {
   return (
@@ -44,9 +45,15 @@ const History = () => {
       </section> 
       */}
 
-
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={war} alt="Margaret MacMillan - War: How Conflict Shaped Us"></img>
+        <div className="prev-book-info">
+          <p className="book-month">October 2021</p>
+          <p className="book-selector">Trenton</p>
+        </div>
+      </section> 
       
-    <section className="prev-book-display">
+      <section className="prev-book-display">
         <img id="prev-book-cover" src={alchemist} alt="Paulo Coelho - The Alchemist"></img>
         <div className="prev-book-info">
           <p className="book-month">September 2021</p>
@@ -55,7 +62,7 @@ const History = () => {
       </section> 
      
 
-    <section className="prev-book-display">
+      <section className="prev-book-display">
         <img id="prev-book-cover" src={refugees} alt="Viet Thanh Nguyen - The Refugees"></img>
         <div className="prev-book-info">
           <p className="book-month">August 2021</p>
@@ -63,7 +70,7 @@ const History = () => {
         </div>
       </section> 
 
-    <section className="prev-book-display">
+      <section className="prev-book-display">
         <img id="prev-book-cover" src={timetravel} alt="Ian Mortimer - The Time Traveler's Guide to Medieval England"></img>
         <div className="prev-book-info">
           <p className="book-month">July 2021</p>
@@ -79,7 +86,7 @@ const History = () => {
       </div>
     </section> 
 
-    <section className="prev-book-display">
+      <section className="prev-book-display">
         <img id="prev-book-cover" src={ethicalslut} alt="Janet W. Hardy & Dossie Easton - The Ethical Slut"></img>
         <div className="prev-book-info">
           <p className="book-month">May 2021</p>
@@ -87,7 +94,7 @@ const History = () => {
         </div>
       </section> 
 
-    <section className="prev-book-display">
+      <section className="prev-book-display">
         <img id="prev-book-cover" src={werenone} alt="Agatha Christie - And Then There Were None"></img>
         <div className="prev-book-info">
           <p className="book-month">April 2021</p>
