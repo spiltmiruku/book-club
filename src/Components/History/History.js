@@ -30,6 +30,8 @@ import timetravel from '../../resources/previousbooks/time-traveler-guide-july-2
 import refugees from '../../resources/previousbooks/refugees-aug-2021.jpg'
 import alchemist from '../../resources/previousbooks/alchemist-sept-2021.jpg'
 import war from '../../resources/previousbooks/war-oct-2021.jpg'
+import dopamine from '../../resources/previousbooks/dopamine-nov-2021.jpg'
+
 
 const History = () => {
   return (
@@ -44,6 +46,14 @@ const History = () => {
         </div>
       </section> 
       */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={dopamine} alt="Dr. Anna Lembke - Dopamine Nation: Finding Balance in the Age of Indulgence"></img>
+        <div className="prev-book-info">
+          <p className="book-month">November 2021</p>
+          <p className="book-selector">Catherine</p>
+        </div>
+      </section> 
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={war} alt="Margaret MacMillan - War: How Conflict Shaped Us"></img>
