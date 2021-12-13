@@ -31,6 +31,7 @@ import refugees from '../../resources/previousbooks/refugees-aug-2021.jpg'
 import alchemist from '../../resources/previousbooks/alchemist-sept-2021.jpg'
 import war from '../../resources/previousbooks/war-oct-2021.jpg'
 import dopamine from '../../resources/previousbooks/dopamine-nov-2021.jpg'
+import refuge from '../../resources/previousbooks/refuge-nov-2021.jpg'
 
 
 const History = () => {
@@ -39,13 +40,22 @@ const History = () => {
       {/* TEMPLATE */}
       {/* 
     <section className="prev-book-display">
-        <img id="prev-book-cover" src={}></img>
+        <img id="prev-book-cover" src={} alt=""></img>
         <div className="prev-book-info">
           <p className="book-month"></p>
           <p className="book-selector"></p>
         </div>
-      </section> 
+      </section>
       */}
+
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={refuge} alt="Terry Tempest Williams - Refuge: An Unnatural History of Family and Place"></img>
+        <div className="prev-book-info">
+          <p className="book-month">December 2021</p>
+          <p className="book-selector">Angie</p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={dopamine} alt="Dr. Anna Lembke - Dopamine Nation: Finding Balance in the Age of Indulgence"></img>
