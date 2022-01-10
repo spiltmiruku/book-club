@@ -32,6 +32,7 @@ import alchemist from '../../resources/previousbooks/alchemist-sept-2021.jpg'
 import war from '../../resources/previousbooks/war-oct-2021.jpg'
 import dopamine from '../../resources/previousbooks/dopamine-nov-2021.jpg'
 import refuge from '../../resources/previousbooks/refuge-nov-2021.jpg'
+import wine from '../../resources/previousbooks/the-last-of-the-wine-jan-2022.jpg'
 
 
 const History = () => {
@@ -48,6 +49,14 @@ const History = () => {
       </section>
       */}
 
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={wine} alt="Mary Reault - The Last of The Wine"></img>
+        <div className="prev-book-info">
+          <p className="book-month">January 2022</p>
+          <p className="book-selector">Brandon</p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={refuge} alt="Terry Tempest Williams - Refuge: An Unnatural History of Family and Place"></img>

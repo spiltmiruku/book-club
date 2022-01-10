@@ -4,10 +4,10 @@ import currentbook from "../../resources/currentbook.jpg";
 
 const Landing = () => {
   let meetingPlace = `3:00PM MST @ discord`;
-  let meetingDateTime = "Sunday, January 9th, 2022";
-  let bookMonth = "December 2021";
-  let discussionLeader = "Angie";
-  let nextPick = "Brandon";
+  let meetingDateTime = "Sunday, Febuary 27th, 2022";
+  let bookMonth = "January 2021";
+  let discussionLeader = "Brandon";
+  let nextPick = "Landon";
 
   return (
     <div>
