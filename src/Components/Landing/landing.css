@@ -1,12 +1,14 @@
 /* ----------LANDING COMPONENT---------- */
 
 body {
-  background-color: #e0e5ec;
+  /* background-color: #e0e5ec; */
+  background-color: #303234;
   font-family: "Raleway", sans-serif;
 }
 
 .tag {
-  color: #70adff;
+  /* color: #70adff; */
+  color: #fff;
   font-size: 25px;
   font-weight: normal;
   letter-spacing: 8px;
@@ -25,7 +27,8 @@ body {
 
 .current-book {
   /* border: blueviolet solid; */
-  color: #1a365c;
+  /* color: #1a365c; */
+  color: #70adff;
   width: 500px;
   display: flex;
   flex-direction: column;
@@ -42,11 +45,13 @@ body {
 }
 
 .book-display {
-  background-color: #e0e5ec;
+  /* background-color: #e0e5ec; */
+  background-color: #303234;
   height: 350px;
   width: 350px;
   border-radius: 30px;
-  box-shadow: 9px 9px 16px #a1acbb, -9px -9px 16px #fff;
+  /* box-shadow: 9px 9px 16px #a1acbb, -9px -9px 16px #fff; */
+  box-shadow: 9px 9px 16px rgba(73, 73, 73, 0.4), -9px -9px 16px rgba(0, 0, 0, 0.4);
 }
 
 .book-display > p {
@@ -57,14 +62,16 @@ body {
 
 #book-cover {
   height: 350px;
-  box-shadow: -10px -10px 25px #a1acbb;
+  /* box-shadow: -10px -10px 25px #a1acbb; */
+  box-shadow: 9px 9px 16px rgba(73, 73, 73, 0.4), -9px -9px 16px rgba(0, 0, 0, 0.4);
   z-index: 10;
   margin-bottom: -250px;
 }
 
 .meeting-info {
   /* border: cadetblue solid; */
-  color: #1a365c;
+  /* color: #1a365c; */
+  color: #70adff;
   font-size: 20px;
   width: 500px;
   margin: 75px 0 0 20px;
@@ -81,7 +88,8 @@ body {
   width: 350px;
   height: 230px;
   margin: 20px;
-  box-shadow: 9px 9px 20px #a1acbb, -9px -9px 20px #fff;
+  /* box-shadow: 9px 9px 20px #a1acbb, -9px -9px 20px #fff; */
+  box-shadow: 9px 9px 16px rgba(73, 73, 73, 0.4), -9px -9px 16px rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,7 +101,8 @@ body {
   width: 350px;
   height: 120px;
   margin: 20px;
-  box-shadow: 9px 9px 20px #a1acbb, -9px -9px 20px #fff;
+  /* box-shadow: 9px 9px 20px #a1acbb, -9px -9px 20px #fff; */
+  box-shadow: 9px 9px 16px rgba(73, 73, 73, 0.4), -9px -9px 16px rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -105,7 +114,8 @@ body {
   width: 350px;
   height: 120px;
   margin: 20px;
-  box-shadow: 9px 9px 20px #a1acbb, -9px -9px 20px #fff;
+  /* box-shadow: 9px 9px 20px #a1acbb, -9px -9px 20px #fff; */
+  box-shadow: 9px 9px 16px rgba(73, 73, 73, 0.4), -9px -9px 16px rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
   justify-content: center;
