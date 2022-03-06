@@ -34,6 +34,7 @@ import dopamine from '../../resources/previousbooks/dopamine-nov-2021.jpg'
 import refuge from '../../resources/previousbooks/refuge-nov-2021.jpg'
 import wine from '../../resources/previousbooks/the-last-of-the-wine-jan-2022.jpg'
 import hogfather from '../../resources/previousbooks/hogfather-feb-2022.jpg'
+import luckybreaks from '../../resources/previousbooks/lucky-breaks-march-2022.jpg'
 
 
 const History = () => {
@@ -49,6 +50,14 @@ const History = () => {
         </div>
       </section>
       */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={luckybreaks} alt="Yevgenia Belorusets - Lucky Breaks"></img>
+        <div className="prev-book-info">
+          <p className="book-month">March 2022</p>
+          <p className="book-selector">Landon</p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={hogfather} alt="Terry Pratchett - Hogfather"></img>
