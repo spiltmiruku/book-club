@@ -23,19 +23,18 @@ import larkinpoems from "../../resources/previousbooks/larkin-collected-poems-de
 import kondotidyingup from "../../resources/previousbooks/life-changing-magic-of-tidying-up-jan-2021.jpg";
 import gilead from "../../resources/previousbooks/gilead-feb-2021.jpg";
 import cinema from "../../resources/previousbooks/women's-cinema-world-cinema-mar-2021.jpg";
-import werenone from "../../resources/previousbooks/and-then-there-were-none-apr-2021.jpg"
-import ethicalslut from "../../resources/previousbooks/the-ethical-slut-may-2021.jpg"
-import railroad from "../../resources/previousbooks/the-underground-railroad-june-2021.jpg"
-import timetravel from '../../resources/previousbooks/time-traveler-guide-july-2021.jpg'
-import refugees from '../../resources/previousbooks/refugees-aug-2021.jpg'
-import alchemist from '../../resources/previousbooks/alchemist-sept-2021.jpg'
-import war from '../../resources/previousbooks/war-oct-2021.jpg'
-import dopamine from '../../resources/previousbooks/dopamine-nov-2021.jpg'
-import refuge from '../../resources/previousbooks/refuge-nov-2021.jpg'
-import wine from '../../resources/previousbooks/the-last-of-the-wine-jan-2022.jpg'
-import hogfather from '../../resources/previousbooks/hogfather-feb-2022.jpg'
-import luckybreaks from '../../resources/previousbooks/lucky-breaks-march-2022.jpg'
-
+import werenone from "../../resources/previousbooks/and-then-there-were-none-apr-2021.jpg";
+import ethicalslut from "../../resources/previousbooks/the-ethical-slut-may-2021.jpg";
+import railroad from "../../resources/previousbooks/the-underground-railroad-june-2021.jpg";
+import timetravel from "../../resources/previousbooks/time-traveler-guide-july-2021.jpg";
+import refugees from "../../resources/previousbooks/refugees-aug-2021.jpg";
+import alchemist from "../../resources/previousbooks/alchemist-sept-2021.jpg";
+import war from "../../resources/previousbooks/war-oct-2021.jpg";
+import dopamine from "../../resources/previousbooks/dopamine-nov-2021.jpg";
+import refuge from "../../resources/previousbooks/refuge-nov-2021.jpg";
+import wine from "../../resources/previousbooks/the-last-of-the-wine-jan-2022.jpg";
+import hogfather from "../../resources/previousbooks/hogfather-feb-2022.jpg";
+import luckybreaks from "../../resources/previousbooks/lucky-breaks-march-2022.jpg";
 
 const History = () => {
   return (
@@ -52,7 +51,11 @@ const History = () => {
       */}
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={luckybreaks} alt="Yevgenia Belorusets - Lucky Breaks"></img>
+        <img
+          id="prev-book-cover"
+          src={luckybreaks}
+          alt="Yevgenia Belorusets - Lucky Breaks"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">March 2022</p>
           <p className="book-selector">Landon</p>
@@ -60,7 +63,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={hogfather} alt="Terry Pratchett - Hogfather"></img>
+        <img
+          id="prev-book-cover"
+          src={hogfather}
+          alt="Terry Pratchett - Hogfather"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">February 2022</p>
           <p className="book-selector">Danielle</p>
@@ -68,7 +75,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={wine} alt="Mary Reault - The Last of The Wine"></img>
+        <img
+          id="prev-book-cover"
+          src={wine}
+          alt="Mary Reault - The Last of The Wine"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">January 2022</p>
           <p className="book-selector">Brandon</p>
@@ -76,7 +87,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={refuge} alt="Terry Tempest Williams - Refuge: An Unnatural History of Family and Place"></img>
+        <img
+          id="prev-book-cover"
+          src={refuge}
+          alt="Terry Tempest Williams - Refuge: An Unnatural History of Family and Place"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">December 2021</p>
           <p className="book-selector">Angie</p>
@@ -84,71 +99,107 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={dopamine} alt="Dr. Anna Lembke - Dopamine Nation: Finding Balance in the Age of Indulgence"></img>
+        <img
+          id="prev-book-cover"
+          src={dopamine}
+          alt="Dr. Anna Lembke - Dopamine Nation: Finding Balance in the Age of Indulgence"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">November 2021</p>
           <p className="book-selector">Catherine</p>
         </div>
-      </section> 
+      </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={war} alt="Margaret MacMillan - War: How Conflict Shaped Us"></img>
+        <img
+          id="prev-book-cover"
+          src={war}
+          alt="Margaret MacMillan - War: How Conflict Shaped Us"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">October 2021</p>
           <p className="book-selector">Trenton</p>
         </div>
-      </section> 
-      
+      </section>
+
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={alchemist} alt="Paulo Coelho - The Alchemist"></img>
+        <img
+          id="prev-book-cover"
+          src={alchemist}
+          alt="Paulo Coelho - The Alchemist"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">September 2021</p>
           <p className="book-selector">Dale</p>
         </div>
-      </section> 
+      </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={refugees} alt="Viet Thanh Nguyen - The Refugees"></img>
+        <img
+          id="prev-book-cover"
+          src={refugees}
+          alt="Viet Thanh Nguyen - The Refugees"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">August 2021</p>
           <p className="book-selector">Jonah</p>
         </div>
-      </section> 
+      </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={timetravel} alt="Ian Mortimer - The Time Traveler's Guide to Medieval England"></img>
+        <img
+          id="prev-book-cover"
+          src={timetravel}
+          alt="Ian Mortimer - The Time Traveler's Guide to Medieval England"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">July 2021</p>
           <p className="book-selector">Tink</p>
         </div>
       </section>
 
-    <section className="prev-book-display">
-      <img id="prev-book-cover" src={railroad} alt="Colson Whitehead - The Underground Railroad"></img>
-      <div className="prev-book-info">
-        <p className="book-month">June 2021</p>
-        <p className="book-selector">Landon</p>
-      </div>
-    </section> 
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={railroad}
+          alt="Colson Whitehead - The Underground Railroad"
+        ></img>
+        <div className="prev-book-info">
+          <p className="book-month">June 2021</p>
+          <p className="book-selector">Landon</p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={ethicalslut} alt="Janet W. Hardy & Dossie Easton - The Ethical Slut"></img>
+        <img
+          id="prev-book-cover"
+          src={ethicalslut}
+          alt="Janet W. Hardy & Dossie Easton - The Ethical Slut"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">May 2021</p>
           <p className="book-selector">Brandon</p>
         </div>
-      </section> 
+      </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={werenone} alt="Agatha Christie - And Then There Were None"></img>
+        <img
+          id="prev-book-cover"
+          src={werenone}
+          alt="Agatha Christie - And Then There Were None"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">April 2021</p>
           <p className="book-selector">Angie</p>
         </div>
-      </section> 
+      </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={cinema} alt="Patricia White - Women's Cinema, World Cinema"></img>
+        <img
+          id="prev-book-cover"
+          src={cinema}
+          alt="Patricia White - Women's Cinema, World Cinema"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">March 2021</p>
           <p className="book-selector">Catherine</p>
