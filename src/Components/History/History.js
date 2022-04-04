@@ -35,6 +35,8 @@ import refuge from "../../resources/previousbooks/refuge-nov-2021.jpg";
 import wine from "../../resources/previousbooks/the-last-of-the-wine-jan-2022.jpg";
 import hogfather from "../../resources/previousbooks/hogfather-feb-2022.jpg";
 import luckybreaks from "../../resources/previousbooks/lucky-breaks-march-2022.jpg";
+import discontent from "../../resources/previousbooks/discontent-april-2022.jpg";
+
 
 const History = () => {
   return (
@@ -49,6 +51,15 @@ const History = () => {
         </div>
       </section>
       */}
+
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={discontent} alt="Mohsin Hamid - Discontent and Its Civilizations"></img>
+        <div className="prev-book-info">
+          <p className="book-month">April 2022</p>
+          <p className="book-selector">Jonah</p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
         <img
