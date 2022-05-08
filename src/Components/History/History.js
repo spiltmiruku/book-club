@@ -36,6 +36,7 @@ import wine from "../../resources/previousbooks/the-last-of-the-wine-jan-2022.jp
 import hogfather from "../../resources/previousbooks/hogfather-feb-2022.jpg";
 import luckybreaks from "../../resources/previousbooks/lucky-breaks-march-2022.jpg";
 import discontent from "../../resources/previousbooks/discontent-april-2022.jpg";
+import pastoralia from '../../resources/previousbooks/pastoralia-may-2022.jpg'
 
 
 const History = () => {
@@ -52,6 +53,13 @@ const History = () => {
       </section>
       */}
 
+<section className="prev-book-display">
+        <img id="prev-book-cover" src={pastoralia} alt="George Saunders - Pastoralia"></img>
+        <div className="prev-book-info">
+          <p className="book-month">May 2022</p>
+          <p className="book-selector">Dale</p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={discontent} alt="Mohsin Hamid - Discontent and Its Civilizations"></img>
