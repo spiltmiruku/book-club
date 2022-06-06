@@ -8,8 +8,9 @@ body {
 }
 
 .tag {
-  color: #70adff;
+  /* color: #70adff; */
   /* color: #fff; */
+  color: #1a365c;
   font-size: 25px;
   font-weight: normal;
   letter-spacing: 8px;
@@ -29,7 +30,8 @@ body {
 .current-book {
   /* border: blueviolet solid; */
   /* color: #1a365c; */
-  color: #70adff;
+  /* color: #70adff; */
+  color: #1a365c;
   width: 500px;
   display: flex;
   flex-direction: column;
@@ -72,11 +74,11 @@ body {
 .meeting-info {
   /* border: cadetblue solid; */
   /* color: #1a365c; */
-  color: #70adff;
+  /* color: #70adff; */
+  color: #1a365c;
   font-size: 20px;
   width: 500px;
   margin: 75px 0 0 20px;
-
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
