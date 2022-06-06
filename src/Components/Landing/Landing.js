@@ -6,7 +6,7 @@ const Landing = () => {
   let meetingPlace = `3:00PM MST @ discord`;
   let meetingDateTime = "Sunday, June 26th, 2022";
   let bookMonth = "June 2022";
-  let nextPick = "";
+  let nextPick = "Catherine";
   let discussionLeader = "Trenton";
 
   return (
