@@ -36,8 +36,8 @@ import wine from "../../resources/previousbooks/the-last-of-the-wine-jan-2022.jp
 import hogfather from "../../resources/previousbooks/hogfather-feb-2022.jpg";
 import luckybreaks from "../../resources/previousbooks/lucky-breaks-march-2022.jpg";
 import discontent from "../../resources/previousbooks/discontent-april-2022.jpg";
-import pastoralia from '../../resources/previousbooks/pastoralia-may-2022.jpg'
-
+import pastoralia from "../../resources/previousbooks/pastoralia-may-2022.jpg";
+import strongtowns from "../../resources/previousbooks/strong-towns-june-2022.jpg";
 
 const History = () => {
   return (
@@ -53,8 +53,24 @@ const History = () => {
       </section>
       */}
 
-<section className="prev-book-display">
-        <img id="prev-book-cover" src={pastoralia} alt="George Saunders - Pastoralia"></img>
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={strongtowns}
+          alt="Strong Towns - Charles L. Marohn, Jr. "
+        ></img>
+        <div className="prev-book-info">
+          <p className="book-month">June 2022</p>
+          <p className="book-selector">Trenton</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={pastoralia}
+          alt="Pastoralia - George Saunders"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">May 2022</p>
           <p className="book-selector">Dale</p>
@@ -62,7 +78,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={discontent} alt="Mohsin Hamid - Discontent and Its Civilizations"></img>
+        <img
+          id="prev-book-cover"
+          src={discontent}
+          alt="Discontent and Its Civilizations - Mohsin Hamid"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">April 2022</p>
           <p className="book-selector">Jonah</p>
@@ -73,7 +93,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={luckybreaks}
-          alt="Yevgenia Belorusets - Lucky Breaks"
+          alt="Lucky Breaks - Yevgenia Belorusets"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">March 2022</p>
@@ -85,7 +105,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={hogfather}
-          alt="Terry Pratchett - Hogfather"
+          alt="Hogfather - Terry Pratchett"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">February 2022</p>
@@ -97,7 +117,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={wine}
-          alt="Mary Reault - The Last of The Wine"
+          alt="The Last of The Wine - Mary Reault"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">January 2022</p>
@@ -109,7 +129,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={refuge}
-          alt="Terry Tempest Williams - Refuge: An Unnatural History of Family and Place"
+          alt="Refuge: An Unnatural History of Family and Place - Terry Tempest Williams"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">December 2021</p>
@@ -121,7 +141,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={dopamine}
-          alt="Dr. Anna Lembke - Dopamine Nation: Finding Balance in the Age of Indulgence"
+          alt="Dopamine Nation: Finding Balance in the Age of Indulgence - Dr. Anna Lembke"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">November 2021</p>
@@ -133,7 +153,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={war}
-          alt="Margaret MacMillan - War: How Conflict Shaped Us"
+          alt="War: How Conflict Shaped Us - Margaret MacMillan"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">October 2021</p>
@@ -145,7 +165,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={alchemist}
-          alt="Paulo Coelho - The Alchemist"
+          alt="The Alchemist - Paulo Coelho"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">September 2021</p>
@@ -157,7 +177,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={refugees}
-          alt="Viet Thanh Nguyen - The Refugees"
+          alt="The Refugees - Viet Thanh Nguyen"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">August 2021</p>
@@ -169,7 +189,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={timetravel}
-          alt="Ian Mortimer - The Time Traveler's Guide to Medieval England"
+          alt="The Time Traveler's Guide to Medieval England - Ian Mortimer"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">July 2021</p>
@@ -181,7 +201,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={railroad}
-          alt="Colson Whitehead - The Underground Railroad"
+          alt="The Underground Railroad - Colson Whitehead"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">June 2021</p>
@@ -193,7 +213,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={ethicalslut}
-          alt="Janet W. Hardy & Dossie Easton - The Ethical Slut"
+          alt="The Ethical Slut - Janet W. Hardy & Dossie Easton"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">May 2021</p>
@@ -205,7 +225,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={werenone}
-          alt="Agatha Christie - And Then There Were None"
+          alt="And Then There Were None - Agatha Christie"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">April 2021</p>
@@ -217,7 +237,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={cinema}
-          alt="Patricia White - Women's Cinema, World Cinema"
+          alt="Women's Cinema, World Cinema - Patricia White"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">March 2021</p>
@@ -229,7 +249,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={gilead}
-          alt="Marilynne Robinson - Gilead"
+          alt="Gilead - Marilynne Robinson"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">February 2021</p>
@@ -241,7 +261,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={kondotidyingup}
-          alt="Marie Kondo - The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing"
+          alt="The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing - Marie Kondo"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">January 2021</p>
@@ -253,7 +273,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={larkinpoems}
-          alt="Philip Larkin - Collected Poems"
+          alt="Collected Poems - Philip Larkin"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">December 2020</p>
@@ -265,7 +285,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={darkconstellations}
-          alt="Pola Oloixarac - Dark Constellations"
+          alt="Dark Constellations - Pola Oloixarac"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">November 2020</p>
@@ -277,7 +297,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={stardust}
-          alt="Neil Gaiman - Stardust"
+          alt="Stardust - Neil Gaiman"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">October 2020</p>
@@ -289,7 +309,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={trial}
-          alt="Franz Kafka - The Trial"
+          alt="The Trial - Franz Kafka"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">September 2020</p>
@@ -301,7 +321,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={noexit}
-          alt="Jean Paul Sartre - No Exit"
+          alt="No Exit - Jean Paul Sartre"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">August 2020</p>
@@ -313,7 +333,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={argonauts}
-          alt="Maggie Nelson - The Argonauts"
+          alt="The Argonauts - Maggie Nelson"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">July 2020</p>
@@ -325,7 +345,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={physicsphilosophy}
-          alt="James Jeans - Physics and Philosophy"
+          alt="Physics and Philosophy - James Jeans"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">June 2020</p>
@@ -337,7 +357,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={freedomfromknown}
-          alt="J. Krishnamurti - Freedom From the Known"
+          alt="Freedom From the Known - J. Krishnamurti"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">May 2020</p>
@@ -349,7 +369,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={moneycantbuy}
-          alt="Michael J. Sandel - What Money Can't Buy"
+          alt="What Money Can't Buy - Michael J. Sandel"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">April 2020</p>
@@ -361,7 +381,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={outgrowmadness}
-          alt="Kenzaburo Oe - Teach Us To Outgrow Our Madness"
+          alt="Teach Us To Outgrow Our Madness - Kenzaburo Oe"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">March 2020</p>
@@ -373,7 +393,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={lovedone}
-          alt="Evelyn Waugh - The Loved One"
+          alt="The Loved One - Evelyn Waugh"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">February 2020</p>
@@ -385,7 +405,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={mastermargarita}
-          alt="Mikhail Bulgakov - The Master & Margarita"
+          alt="The Master & Margarita - Mikhail Bulgakov"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">January 2020</p>
@@ -397,7 +417,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={tellonmountain}
-          alt="James Baldwin - Go Tell It On The Mountain"
+          alt="Go Tell It On The Mountain - James Baldwin"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">December 2020</p>
@@ -409,7 +429,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={manthursday}
-          alt="G. K. Chesterton - The Man Who Was Thursday"
+          alt="The Man Who Was Thursday - G. K. Chesterton"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">November 2019</p>
@@ -421,7 +441,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={belljar}
-          alt="Sylvia Plath - The Bell Jar"
+          alt="The Bell Jar - Sylvia Plath"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">October 2019</p>
@@ -433,7 +453,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={lysistrata}
-          alt="Aristophanes - Lysistrata"
+          alt="Lysistrata - Aristophanes"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">September 2019</p>
@@ -445,7 +465,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={ourkids}
-          alt="Robert D. Putnam - Our Kids: The American Dream in Crisis"
+          alt="Our Kids: The American Dream in Crisis - Robert D. Putnam"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">August 2019</p>
@@ -457,7 +477,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={oscarwao}
-          alt="Junot Diaz - The Brief Wondrous Life of Oscar Wao"
+          alt="The Brief Wondrous Life of Oscar Wao - Junot Diaz"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">June/July 2019</p>
@@ -469,7 +489,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={funhome}
-          alt="Alison Bechdel - Fun Home"
+          alt="Fun Home - Alison Bechdel"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">May 2019</p>
