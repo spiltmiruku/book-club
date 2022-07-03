@@ -38,6 +38,7 @@ import luckybreaks from "../../resources/previousbooks/lucky-breaks-march-2022.j
 import discontent from "../../resources/previousbooks/discontent-april-2022.jpg";
 import pastoralia from "../../resources/previousbooks/pastoralia-may-2022.jpg";
 import strongtowns from "../../resources/previousbooks/strong-towns-june-2022.jpg";
+import goonsquad from "../../resources/previousbooks/goon-squad-july-2022.jpg";
 
 const History = () => {
   return (
@@ -52,6 +53,15 @@ const History = () => {
         </div>
       </section>
       */}
+
+
+<section className="prev-book-display">
+        <img id="prev-book-cover" src={goonsquad} alt=""></img>
+        <div className="prev-book-info">
+          <p className="book-month">July 2022</p>
+          <p className="book-selector">Catherine</p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
         <img
