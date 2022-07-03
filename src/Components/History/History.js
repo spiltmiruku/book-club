@@ -54,9 +54,8 @@ const History = () => {
       </section>
       */}
 
-
-<section className="prev-book-display">
-        <img id="prev-book-cover" src={goonsquad} alt=""></img>
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={goonsquad} alt="A Visit from the Goon Squad - Jennifer Egan"></img>
         <div className="prev-book-info">
           <p className="book-month">July 2022</p>
           <p className="book-selector">Catherine</p>
