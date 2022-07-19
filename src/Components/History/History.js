@@ -70,7 +70,7 @@ const History = () => {
         ></img>
         <div className="prev-book-info">
           <p className="book-month">June 2022</p>
-          <p className="book-selector">Trenton</p>
+          <p className="book-selector">Robert</p>
         </div>
       </section>
 
