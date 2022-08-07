@@ -39,6 +39,8 @@ import discontent from "../../resources/previousbooks/discontent-april-2022.jpg"
 import pastoralia from "../../resources/previousbooks/pastoralia-may-2022.jpg";
 import strongtowns from "../../resources/previousbooks/strong-towns-june-2022.jpg";
 import goonsquad from "../../resources/previousbooks/goon-squad-july-2022.jpg";
+import filmchangedlife from "../../resources/previousbooks/film-changed-life-aug-2022.jpg";
+
 
 const History = () => {
   return (
@@ -53,6 +55,21 @@ const History = () => {
         </div>
       </section>
       */}
+    {/* <section className="prev-book-display">
+        <img id="prev-book-cover" src={} alt=""></img>
+        <div className="prev-book-info">
+          <p className="book-month">September 2022</p>
+          <p className="book-selector">Catherine</p>
+        </div>
+      </section> */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={filmchangedlife} alt="The Film That Changed My Life: 30 Directors on Their Epiphanies in the Dark - Robert K. Elder"></img>
+        <div className="prev-book-info">
+          <p className="book-month">August 2022</p>
+          <p className="book-selector">Angie</p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={goonsquad} alt="A Visit from the Goon Squad - Jennifer Egan"></img>
