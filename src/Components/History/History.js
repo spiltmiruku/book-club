@@ -41,7 +41,7 @@ import strongtowns from "../../resources/previousbooks/strong-towns-june-2022.jp
 import goonsquad from "../../resources/previousbooks/goon-squad-july-2022.jpg";
 import filmchangedlife from "../../resources/previousbooks/film-changed-life-aug-2022.jpg";
 import scarleta from "../../resources/previousbooks/scarlet-a-sept-2022.jpg";
-import heartofadog from "../../resources/previousbooks/heart-of-a-dog-2022.jpg"
+import heartofadog from "../../resources/previousbooks/heart-of-a-dog-oct-2022.jpg"
 
 
 const History = () => {
