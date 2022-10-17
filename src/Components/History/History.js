@@ -40,7 +40,8 @@ import pastoralia from "../../resources/previousbooks/pastoralia-may-2022.jpg";
 import strongtowns from "../../resources/previousbooks/strong-towns-june-2022.jpg";
 import goonsquad from "../../resources/previousbooks/goon-squad-july-2022.jpg";
 import filmchangedlife from "../../resources/previousbooks/film-changed-life-aug-2022.jpg";
-import scarleta from "../../resources/previousbooks/scarlet-a-sept-2022.jpg"
+import scarleta from "../../resources/previousbooks/scarlet-a-sept-2022.jpg";
+import heartofadog from "../../resources/previousbooks/heart-of-a-dog-2022.jpg"
 
 
 const History = () => {
@@ -56,13 +57,13 @@ const History = () => {
         </div>
       </section>
       */}
-    {/* <section className="prev-book-display">
-        <img id="prev-book-cover" src={} alt=""></img>
+    <section className="prev-book-display">
+        <img id="prev-book-cover" src={heartofadog} alt="The Heart of A Dog - Mikhail Bulgakov"></img>
         <div className="prev-book-info">
-          <p className="book-month">September 2022</p>
-          <p className="book-selector">Catherine</p>
+          <p className="book-month">October 2022</p>
+          <p className="book-selector">Landon</p>
         </div>
-      </section> */}
+      </section>
 
 <section className="prev-book-display">
         <img id="prev-book-cover" src={scarleta} alt="Scarlet A: The Ethics, Law, and Politics of Ordinary Abortion - Katie Watson "></img>
