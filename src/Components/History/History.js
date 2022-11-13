@@ -41,7 +41,8 @@ import strongtowns from "../../resources/previousbooks/strong-towns-june-2022.jp
 import goonsquad from "../../resources/previousbooks/goon-squad-july-2022.jpg";
 import filmchangedlife from "../../resources/previousbooks/film-changed-life-aug-2022.jpg";
 import scarleta from "../../resources/previousbooks/scarlet-a-sept-2022.jpg";
-import heartofadog from "../../resources/previousbooks/heart-of-a-dog-oct-2022.jpg"
+import heartofadog from "../../resources/previousbooks/heart-of-a-dog-oct-2022.jpg";
+import healthcommunism from "../../resources/previousbooks/health-communism-nov-2022.jpg";
 
 
 const History = () => {
@@ -57,6 +58,15 @@ const History = () => {
         </div>
       </section>
       */}
+
+<section className="prev-book-display">
+        <img id="prev-book-cover" src={healthcommunism} alt="Health Communism: A Surplus Manifesto - Beatrice Adler-Bolton, Artie Vierkant"></img>
+        <div className="prev-book-info">
+          <p className="book-month">November 2022</p>
+          <p className="book-selector">Jonah</p>
+        </div>
+      </section>
+
     <section className="prev-book-display">
         <img id="prev-book-cover" src={heartofadog} alt="The Heart of A Dog - Mikhail Bulgakov"></img>
         <div className="prev-book-info">
