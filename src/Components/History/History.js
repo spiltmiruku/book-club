@@ -43,6 +43,7 @@ import filmchangedlife from "../../resources/previousbooks/film-changed-life-aug
 import scarleta from "../../resources/previousbooks/scarlet-a-sept-2022.jpg";
 import heartofadog from "../../resources/previousbooks/heart-of-a-dog-oct-2022.jpg";
 import healthcommunism from "../../resources/previousbooks/health-communism-nov-2022.jpg";
+import swerve from "../../resources/previousbooks/swerve-dec-2022.jpg";
 
 
 const History = () => {
@@ -58,6 +59,14 @@ const History = () => {
         </div>
       </section>
       */}
+
+<section className="prev-book-display">
+        <img id="prev-book-cover" src={swerve} alt="The Swerve: How the World Became Modern - Stephen Greenblatt"></img>
+        <div className="prev-book-info">
+          <p className="book-month">December 2022</p>
+          <p className="book-selector">Dale</p>
+        </div>
+      </section>
 
 <section className="prev-book-display">
         <img id="prev-book-cover" src={healthcommunism} alt="Health Communism: A Surplus Manifesto - Beatrice Adler-Bolton, Artie Vierkant"></img>
