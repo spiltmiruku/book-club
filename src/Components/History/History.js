@@ -44,7 +44,8 @@ import scarleta from "../../resources/previousbooks/scarlet-a-sept-2022.jpg";
 import heartofadog from "../../resources/previousbooks/heart-of-a-dog-oct-2022.jpg";
 import healthcommunism from "../../resources/previousbooks/health-communism-nov-2022.jpg";
 import swerve from "../../resources/previousbooks/swerve-dec-2022.jpg";
-import holdme from "../../resources/previousbooks/hold-me-jan-2022.jpg";
+import holdme from "../../resources/previousbooks/hold-me-jan-2023.jpg";
+import walden from "../../resources/previousbooks/walden-feb-2023.jpg";
 
 
 const History = () => {
@@ -60,6 +61,14 @@ const History = () => {
         </div>
       </section>
       */}
+
+<section className="prev-book-display">
+        <img id="prev-book-cover" src={walden} alt="Walden - Henry David Thoreau"></img>
+        <div className="prev-book-info">
+          <p className="book-month">February 2023</p>
+          <p className="book-selector">Trenton</p>
+        </div>
+      </section>
 
 <section className="prev-book-display">
         <img id="prev-book-cover" src={holdme} alt="Hold Me Tight - Dr. Sue Johnson"></img>
