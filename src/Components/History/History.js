@@ -46,6 +46,7 @@ import healthcommunism from "../../resources/previousbooks/health-communism-nov-
 import swerve from "../../resources/previousbooks/swerve-dec-2022.jpg";
 import holdme from "../../resources/previousbooks/hold-me-jan-2023.jpg";
 import walden from "../../resources/previousbooks/walden-feb-2023.jpg";
+import dancingstreets from "../../resources/previousbooks/dancing-in-the-streets-march-2023.jpg"
 
 
 const History = () => {
@@ -61,6 +62,15 @@ const History = () => {
         </div>
       </section>
       */}
+
+
+<section className="prev-book-display">
+        <img id="prev-book-cover" src={dancingstreets} alt="Dancing in the Streets - Barbara Ehrenreich"></img>
+        <div className="prev-book-info">
+          <p className="book-month">March 2023</p>
+          <p className="book-selector"><Catherine></Catherine></p>
+        </div>
+      </section>
 
 <section className="prev-book-display">
         <img id="prev-book-cover" src={walden} alt="Walden - Henry David Thoreau"></img>
