@@ -68,7 +68,7 @@ const History = () => {
         <img id="prev-book-cover" src={dancingstreets} alt="Dancing in the Streets - Barbara Ehrenreich"></img>
         <div className="prev-book-info">
           <p className="book-month">March 2023</p>
-          <p className="book-selector"><Catherine></Catherine></p>
+          <p className="book-selector">Catherine</p>
         </div>
       </section>
 
