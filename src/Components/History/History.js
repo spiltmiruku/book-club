@@ -48,7 +48,7 @@ import holdme from "../../resources/previousbooks/hold-me-jan-2023.jpg";
 import walden from "../../resources/previousbooks/walden-feb-2023.jpg";
 import dancingstreets from "../../resources/previousbooks/dancing-in-the-streets-march-2023.jpg";
 import jeeves from "../../resources/previousbooks/inimitable-jeeves-april-2023.jpg";
-
+import monkrobot from "../../resources/previousbooks/monk-robot-2-book-may-2023.jpg";
 
 const History = () => {
   return (
@@ -64,66 +64,109 @@ const History = () => {
       </section>
       */}
 
-
-    <section className="prev-book-display">
-        <img id="prev-book-cover" src={jeeves} alt="The Inimitable Jeeves - P.G. Wodehouse"></img>
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={monkrobot}
+          alt="
+A Psalm for the Wild-Built (Monk & Robot Book 1) - Becky Chambers (Author) and A Prayer for the Crown-Shy: A Monk and Robot Book (Monk & Robot 2) - Becky Chambers (Author)"
+        ></img>
         <div className="prev-book-info">
-          <p className="book-month">April 2023</p>
-          <p className="book-selector">Landon</p>
-
+          <p className="book-month">May 2023</p>
+          <p className="book-selector">Jonah</p>
         </div>
       </section>
 
-<section className="prev-book-display">
-        <img id="prev-book-cover" src={dancingstreets} alt="Dancing in the Streets - Barbara Ehrenreich"></img>
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={jeeves}
+          alt="The Inimitable Jeeves - P.G. Wodehouse"
+        ></img>
+        <div className="prev-book-info">
+          <p className="book-month">April 2023</p>
+          <p className="book-selector">Landon</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={dancingstreets}
+          alt="Dancing in the Streets - Barbara Ehrenreich"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">March 2023</p>
           <p className="book-selector">Catherine</p>
         </div>
       </section>
 
-<section className="prev-book-display">
-        <img id="prev-book-cover" src={walden} alt="Walden - Henry David Thoreau"></img>
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={walden}
+          alt="Walden - Henry David Thoreau"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">February 2023</p>
           <p className="book-selector">Trenton</p>
         </div>
       </section>
 
-<section className="prev-book-display">
-        <img id="prev-book-cover" src={holdme} alt="Hold Me Tight - Dr. Sue Johnson"></img>
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={holdme}
+          alt="Hold Me Tight - Dr. Sue Johnson"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">January 2023</p>
           <p className="book-selector">Robert</p>
         </div>
       </section>
 
-<section className="prev-book-display">
-        <img id="prev-book-cover" src={swerve} alt="The Swerve: How the World Became Modern - Stephen Greenblatt"></img>
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={swerve}
+          alt="The Swerve: How the World Became Modern - Stephen Greenblatt"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">December 2022</p>
           <p className="book-selector">Dale</p>
         </div>
       </section>
 
-<section className="prev-book-display">
-        <img id="prev-book-cover" src={healthcommunism} alt="Health Communism: A Surplus Manifesto - Beatrice Adler-Bolton, Artie Vierkant"></img>
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={healthcommunism}
+          alt="Health Communism: A Surplus Manifesto - Beatrice Adler-Bolton, Artie Vierkant"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">November 2022</p>
           <p className="book-selector">Jonah</p>
         </div>
       </section>
 
-    <section className="prev-book-display">
-        <img id="prev-book-cover" src={heartofadog} alt="The Heart of A Dog - Mikhail Bulgakov"></img>
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={heartofadog}
+          alt="The Heart of A Dog - Mikhail Bulgakov"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">October 2022</p>
           <p className="book-selector">Landon</p>
         </div>
       </section>
 
-<section className="prev-book-display">
-        <img id="prev-book-cover" src={scarleta} alt="Scarlet A: The Ethics, Law, and Politics of Ordinary Abortion - Katie Watson "></img>
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={scarleta}
+          alt="Scarlet A: The Ethics, Law, and Politics of Ordinary Abortion - Katie Watson "
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">September 2022</p>
           <p className="book-selector">Catherine</p>
@@ -131,7 +174,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={filmchangedlife} alt="The Film That Changed My Life: 30 Directors on Their Epiphanies in the Dark - Robert K. Elder"></img>
+        <img
+          id="prev-book-cover"
+          src={filmchangedlife}
+          alt="The Film That Changed My Life: 30 Directors on Their Epiphanies in the Dark - Robert K. Elder"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">August 2022</p>
           <p className="book-selector">Angie</p>
@@ -139,7 +186,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={goonsquad} alt="A Visit from the Goon Squad - Jennifer Egan"></img>
+        <img
+          id="prev-book-cover"
+          src={goonsquad}
+          alt="A Visit from the Goon Squad - Jennifer Egan"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">July 2022</p>
           <p className="book-selector">Trenton</p>
