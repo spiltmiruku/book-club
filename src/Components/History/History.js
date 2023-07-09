@@ -50,6 +50,7 @@ import dancingstreets from "../../resources/previousbooks/dancing-in-the-streets
 import jeeves from "../../resources/previousbooks/inimitable-jeeves-april-2023.jpg";
 import monkrobot from "../../resources/previousbooks/monk-robot-2-book-may-2023.jpg";
 import mudlark from "../../resources/previousbooks/mudlark-june-2023.jpg";
+import shiver from "../../resources/previousbooks/shiver-july-2023.jpg";
 
 const History = () => {
   return (
@@ -64,6 +65,15 @@ const History = () => {
         </div>
       </section>
       */}
+
+<section className="prev-book-display">
+        <img id="prev-book-cover" src={shiver} alt="Shiver: Junji Ito Selected Stories - Junji Ito"></img>
+        <div className="prev-book-info">
+          <p className="book-month">July 2023</p>
+          <p className="book-selector">Robert</p>
+        </div>
+      </section>
+
     <section className="prev-book-display">
         <img id="prev-book-cover" src={mudlark} alt="Mudlark: In Search of London's Past Along the River Thames - Lara Maiklem"></img>
         <div className="prev-book-info">
