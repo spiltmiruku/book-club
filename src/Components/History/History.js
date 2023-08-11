@@ -50,7 +50,7 @@ import dancingstreets from "../../resources/previousbooks/dancing-in-the-streets
 import jeeves from "../../resources/previousbooks/inimitable-jeeves-april-2023.jpg";
 import monkrobot from "../../resources/previousbooks/monk-robot-2-book-may-2023.jpg";
 import mudlark from "../../resources/previousbooks/mudlark-june-2023.jpg";
-import shiver from "../../resources/previousbooks/shiver-july-2023.jpg";
+import shiver from "../../resources/previousbooks/shiver-july-2023.jpeg";
 
 const History = () => {
   return (

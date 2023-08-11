@@ -1,10 +1,10 @@
 import React from "react";
 import "./landing.css";
-import currentbook from "../../resources/currentbook.jpg";
+import currentbook from "../../resources/currentbook.jpeg";
 
 const Landing = () => {
   let meetingPlace = `3:00PM MT @ discord`;
-  let meetingDateTime = "Sunday, August 6th, 2023";
+  let meetingDateTime = "Sunday, August 13th, 2023";
   let bookMonth = "June 2023";
   let nextPick = "Trenton";
   let discussionLeader = "Robert";
