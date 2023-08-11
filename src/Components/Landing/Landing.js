@@ -3,7 +3,7 @@ import "./landing.css";
 import currentbook from "../../resources/currentbook.jpeg";
 
 const Landing = () => {
-  let meetingPlace = `3:00PM MT @ discord`;
+  let meetingPlace = `3:30PM MT @ discord`;
   let meetingDateTime = "Sunday, August 13th, 2023";
   let bookMonth = "June 2023";
   let nextPick = "Trenton";
