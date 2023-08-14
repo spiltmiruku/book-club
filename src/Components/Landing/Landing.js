@@ -1,6 +1,6 @@
 import React from "react";
 import "./landing.css";
-import currentbook from "../../resources/currentbook.jpeg";
+import currentbook from "../../resources/currentbook.jpg";
 
 const Landing = () => {
   let meetingPlace = `3:30PM MT @ discord`;
