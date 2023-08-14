@@ -51,6 +51,7 @@ import jeeves from "../../resources/previousbooks/inimitable-jeeves-april-2023.j
 import monkrobot from "../../resources/previousbooks/monk-robot-2-book-may-2023.jpg";
 import mudlark from "../../resources/previousbooks/mudlark-june-2023.jpg";
 import shiver from "../../resources/previousbooks/shiver-july-2023.jpeg";
+import segregation from "../../resources/previousbooks/segregation-august-2023.jpg";
 
 const History = () => {
   return (
@@ -66,7 +67,15 @@ const History = () => {
       </section>
       */}
 
-<section className="prev-book-display">
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={segregation} alt="Segregation by Design - Jessica Trounstine"></img>
+        <div className="prev-book-info">
+          <p className="book-month">August 2023</p>
+          <p className="book-selector">Trenton</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
         <img id="prev-book-cover" src={shiver} alt="Shiver: Junji Ito Selected Stories - Junji Ito"></img>
         <div className="prev-book-info">
           <p className="book-month">July 2023</p>
@@ -74,7 +83,7 @@ const History = () => {
         </div>
       </section>
 
-    <section className="prev-book-display">
+      <section className="prev-book-display">
         <img id="prev-book-cover" src={mudlark} alt="Mudlark: In Search of London's Past Along the River Thames - Lara Maiklem"></img>
         <div className="prev-book-info">
           <p className="book-month">June 2023</p>
@@ -86,8 +95,7 @@ const History = () => {
         <img
           id="prev-book-cover"
           src={monkrobot}
-          alt="
-A Psalm for the Wild-Built (Monk & Robot Book 1) - Becky Chambers (Author) and A Prayer for the Crown-Shy: A Monk and Robot Book (Monk & Robot 2) - Becky Chambers (Author)"
+          alt="A Psalm for the Wild-Built (Monk & Robot Book 1) - Becky Chambers (Author) and A Prayer for the Crown-Shy: A Monk and Robot Book (Monk & Robot 2) - Becky Chambers (Author)"
         ></img>
         <div className="prev-book-info">
           <p className="book-month">May 2023</p>
