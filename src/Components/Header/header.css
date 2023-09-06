@@ -8,7 +8,6 @@
   /* color: #fff; */
   font-size: 20px;
   box-shadow: 0 15px 20px #fff;
-  /* box-shadow: 9px 9px 16px rgba(73, 73, 73, 0.9); */
   display: block;
   display: flex;
   flex-direction: row;
@@ -46,27 +45,17 @@
   align-items: center;
   border-radius: 5px;
   box-shadow: 10px 10px 15px #a0bfff, -10px -10px 15px #bdd2ff;
-  /* box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.4), -9px -9px 16px rgba(73, 73, 73, 0.4); */
-  /* border-radius: 50% 60% / 100% 0%;  */
 }
-
-/* .sm-menu-wrapper:hover {
-  background-color: #afcaff;
-  box-shadow: inset 10px 10px 15px #a0bfff, inset -10px -10px 15px #bdd2ff;
-} */
 
 .sm-menu-wrapper:hover {
   background-color: #afcaff;
-  /* background-color: #303234; */
   box-shadow: inset 10px 10px 15px #a0bfff, inset -10px -10px 15px #bdd2ff;
-  /* box-shadow: 9px 9px 16px rgba(73, 73, 73, 0.4), -9px -9px 16px rgba(0, 0, 0, 0.4); */
 }
 
 .title {
   width: fit-content;
   font-family: "Sacramento", serif;
   color: #1a365c;
-  /* color: #fff; */
   display: block;
   font-size: 45px;
   text-align: left;
