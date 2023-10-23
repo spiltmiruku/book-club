@@ -53,6 +53,7 @@ import mudlark from "../../resources/previousbooks/mudlark-june-2023.jpg";
 import shiver from "../../resources/previousbooks/shiver-july-2023.jpeg";
 import segregation from "../../resources/previousbooks/segregation-august-2023.jpg";
 import hex from "../../resources/previousbooks/hex-september-2023.jpg";
+import darling from '../../resources/previousbooks/darling-october-2023.jpg';
 
 const History = () => {
   return (
@@ -67,6 +68,14 @@ const History = () => {
         </div>
       </section>
       */}
+          <section className="prev-book-display">
+        <img id="prev-book-cover" src={darling} alt="Home, I'm Darling - a new play by Laura Wade"></img>
+        <div className="prev-book-info">
+          <p className="book-month">October 2023</p>
+          <p className="book-selector">Landon</p>
+        </div>
+      </section>
+
         <section className="prev-book-display">
         <img id="prev-book-cover" src={hex} alt="Hex - Thomas Olde Heuvelt"></img>
         <div className="prev-book-info">
