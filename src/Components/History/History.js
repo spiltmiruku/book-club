@@ -53,7 +53,7 @@ import mudlark from "../../resources/previousbooks/mudlark-june-2023.jpg";
 import shiver from "../../resources/previousbooks/shiver-july-2023.jpeg";
 import segregation from "../../resources/previousbooks/segregation-august-2023.jpg";
 import hex from "../../resources/previousbooks/hex-september-2023.jpg";
-import darling from '../../resources/previousbooks/darling-october-2023.jpg';
+import darling from "../../resources/previousbooks/darling-october-2023.jpg";
 
 const History = () => {
   return (
@@ -68,16 +68,33 @@ const History = () => {
         </div>
       </section>
       */}
-          <section className="prev-book-display">
-        <img id="prev-book-cover" src={darling} alt="Home, I'm Darling - a new play by Laura Wade"></img>
+
+      {/* <section className="prev-book-display">
+        <img id="prev-book-cover" src={} alt=""></img>
+        <div className="prev-book-info">
+          <p className="book-month">December 2023</p>
+          <p className="book-selector">Landon</p>
+        </div>
+      </section> */}
+
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={darling}
+          alt="Home, I'm Darling - a new play by Laura Wade"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">October 2023</p>
           <p className="book-selector">Landon</p>
         </div>
       </section>
 
-        <section className="prev-book-display">
-        <img id="prev-book-cover" src={hex} alt="Hex - Thomas Olde Heuvelt"></img>
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={hex}
+          alt="Hex - Thomas Olde Heuvelt"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">September 2023</p>
           <p className="book-selector">Catherine</p>
@@ -85,7 +102,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={segregation} alt="Segregation by Design - Jessica Trounstine"></img>
+        <img
+          id="prev-book-cover"
+          src={segregation}
+          alt="Segregation by Design - Jessica Trounstine"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">August 2023</p>
           <p className="book-selector">Trenton</p>
@@ -93,7 +114,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={shiver} alt="Shiver: Junji Ito Selected Stories - Junji Ito"></img>
+        <img
+          id="prev-book-cover"
+          src={shiver}
+          alt="Shiver: Junji Ito Selected Stories - Junji Ito"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">July 2023</p>
           <p className="book-selector">Robert</p>
@@ -101,7 +126,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={mudlark} alt="Mudlark: In Search of London's Past Along the River Thames - Lara Maiklem"></img>
+        <img
+          id="prev-book-cover"
+          src={mudlark}
+          alt="Mudlark: In Search of London's Past Along the River Thames - Lara Maiklem"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">June 2023</p>
           <p className="book-selector">Dale</p>
