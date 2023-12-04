@@ -54,6 +54,7 @@ import shiver from "../../resources/previousbooks/shiver-july-2023.jpeg";
 import segregation from "../../resources/previousbooks/segregation-august-2023.jpg";
 import hex from "../../resources/previousbooks/hex-september-2023.jpg";
 import darling from "../../resources/previousbooks/darling-october-2023.jpg";
+import handmaid from "../../resources/previousbooks/handmaid-december-2023.jpg";
 
 const History = () => {
   return (
@@ -69,13 +70,13 @@ const History = () => {
       </section>
       */}
 
-      {/* <section className="prev-book-display">
-        <img id="prev-book-cover" src={} alt=""></img>
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={handmaid} alt="The Handmaid's Tale - Margaret Atwood"></img>
         <div className="prev-book-info">
           <p className="book-month">December 2023</p>
-          <p className="book-selector">Landon</p>
+          <p className="book-selector">Jonah</p>
         </div>
-      </section> */}
+      </section>
 
       <section className="prev-book-display">
         <img
