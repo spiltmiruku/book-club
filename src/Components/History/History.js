@@ -74,7 +74,7 @@ const History = () => {
         <img id="prev-book-cover" src={handmaid} alt="The Handmaid's Tale - Margaret Atwood"></img>
         <div className="prev-book-info">
           <p className="book-month">December 2023</p>
-          <p className="book-selector">Jonah</p>
+          <p className="book-selector">Catherine</p>
         </div>
       </section>
 
