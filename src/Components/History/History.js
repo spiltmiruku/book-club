@@ -55,6 +55,7 @@ import segregation from "../../resources/previousbooks/segregation-august-2023.j
 import hex from "../../resources/previousbooks/hex-september-2023.jpg";
 import darling from "../../resources/previousbooks/darling-october-2023.jpg";
 import handmaid from "../../resources/previousbooks/handmaid-december-2023.jpg";
+import learningtree from '../../resources/previousbooks/learning-tree-january-2024.jpg';
 
 const History = () => {
   return (
@@ -69,6 +70,14 @@ const History = () => {
         </div>
       </section>
       */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={learningtree} alt="The Learning Tree - Gordon Parks"></img>
+        <div className="prev-book-info">
+          <p className="book-month">January 2024</p>
+          <p className="book-selector">Dale</p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={handmaid} alt="The Handmaid's Tale - Margaret Atwood"></img>
