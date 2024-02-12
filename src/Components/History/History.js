@@ -84,7 +84,7 @@ const History = () => {
         <img id="prev-book-cover" src={learningtree} alt="The Learning Tree - Gordon Parks"></img>
         <div className="prev-book-info">
           <p className="book-month">January 2024</p>
-          <p className="book-selector">Dale</p>
+          <p className="book-selector">Jonah</p>
         </div>
       </section>
 
