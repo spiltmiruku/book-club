@@ -73,7 +73,7 @@ const History = () => {
       </section>
       */}
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={dunes} alt="">The Woman In The Dunes - Kobo Abe</img>
+        <img id="prev-book-cover" src={dunes} alt="The Woman In The Dunes - Kobo Abe"></img>
         <div className="prev-book-info">
           <p className="book-month">March 2024</p>
           <p className="book-selector">Spencer</p>
