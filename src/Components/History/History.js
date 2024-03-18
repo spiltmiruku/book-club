@@ -116,7 +116,7 @@ const History = () => {
         ></img>
         <div className="prev-book-info">
           <p className="book-month">September 2023</p>
-          <p className="book-selector">Catherine</p>
+          <p className="book-selector">Trenton</p>
         </div>
       </section>
 
@@ -128,7 +128,7 @@ const History = () => {
         ></img>
         <div className="prev-book-info">
           <p className="book-month">August 2023</p>
-          <p className="book-selector">Trenton</p>
+          <p className="book-selector">Robert</p>
         </div>
       </section>
 
@@ -140,7 +140,7 @@ const History = () => {
         ></img>
         <div className="prev-book-info">
           <p className="book-month">July 2023</p>
-          <p className="book-selector">Robert</p>
+          <p className="book-selector">Dale</p>
         </div>
       </section>
 
@@ -152,7 +152,7 @@ const History = () => {
         ></img>
         <div className="prev-book-info">
           <p className="book-month">June 2023</p>
-          <p className="book-selector">Dale</p>
+          <p className="book-selector">Spencer</p>
         </div>
       </section>
 
