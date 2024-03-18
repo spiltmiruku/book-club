@@ -57,6 +57,7 @@ import darling from "../../resources/previousbooks/darling-october-2023.jpg";
 import handmaid from "../../resources/previousbooks/handmaid-december-2023.jpg";
 import learningtree from '../../resources/previousbooks/learning-tree-january-2024.jpg';
 import againstinterpretation from '../../resources/previousbooks/against-interpretation-february-2024.jpg';
+import dunes from '../../resources/previousbooks/woman-in-the-dunes-march-2024.jpg';
 
 const History = () => {
   return (
@@ -71,7 +72,13 @@ const History = () => {
         </div>
       </section>
       */}
-
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={dunes} alt="">The Woman In The Dunes - Kobo Abe</img>
+        <div className="prev-book-info">
+          <p className="book-month">March 2024</p>
+          <p className="book-selector">Spencer</p>
+        </div>
+      </section>
       <section className="prev-book-display">
         <img id="prev-book-cover" src={againstinterpretation} alt="Against Interpretation - Susan Sontag"></img>
         <div className="prev-book-info">
