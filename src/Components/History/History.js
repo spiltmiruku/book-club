@@ -58,6 +58,7 @@ import handmaid from "../../resources/previousbooks/handmaid-december-2023.jpg";
 import learningtree from '../../resources/previousbooks/learning-tree-january-2024.jpg';
 import againstinterpretation from '../../resources/previousbooks/against-interpretation-february-2024.jpg';
 import dunes from '../../resources/previousbooks/woman-in-the-dunes-march-2024.jpg';
+import willtochange from '../../resources/previousbooks/will-to-change-april-2024.jpg';
 
 const History = () => {
   return (
@@ -72,6 +73,15 @@ const History = () => {
         </div>
       </section>
       */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={willtochange} alt="The Will to Change: Men, Masculinity, and Love - bell hooks"></img>
+        <div className="prev-book-info">
+          <p className="book-month">April 2024</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
+
       <section className="prev-book-display">
         <img id="prev-book-cover" src={dunes} alt="The Woman In The Dunes - Kobo Abe"></img>
         <div className="prev-book-info">
