@@ -3,11 +3,11 @@ import "./landing.css";
 import currentbook from "../../resources/currentbook.jpg";
 
 const Landing = () => {
-  let meetingPlace = `3:00 PM MT @ discord`;
-  let meetingDateTime = "May 2024";
-  let bookMonth = "April 2024";
-  let nextPick = "";
-  let discussionLeader = "";
+  // let meetingPlace = `3:00 PM MT @ discord`;
+  let meetingDateTime = "June 2024";
+  let bookMonth = "May 2024";
+  // let nextPick = "";
+  // let discussionLeader = "";
 
   return (
     <div>
@@ -26,17 +26,17 @@ const Landing = () => {
           <div className="meet-date-time">
             <p>Upcoming Meeting: </p>
             <p style={{ fontWeight: "bold" }}>{meetingDateTime}</p>
-            <p style={{ fontWeight: "bold" }}>{meetingPlace}</p>
+            {/* <p style={{ fontWeight: "bold" }}>{meetingPlace}</p> */}
           </div>
 
-          <div className="discussion-leader">
+          {/* <div className="discussion-leader">
             <p>Discussion Leader: </p>
             <p style={{ fontWeight: "bold" }}>{discussionLeader}</p>
           </div>
           <div className="next-pick">
             <p>Next Pick: </p>
             <p style={{ fontWeight: "bold" }}>{nextPick}</p>
-          </div>
+          </div> */}
         </section>
       </div>
     </div>
