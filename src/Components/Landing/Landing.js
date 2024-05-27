@@ -29,14 +29,14 @@ const Landing = () => {
             <p style={{ fontWeight: "bold" }}>{meetingPlace}</p>
           </div>
 
-          <div className="discussion-leader">
+          {/* <div className="discussion-leader">
             <p>Discussion Leader: </p>
             <p style={{ fontWeight: "bold" }}>{discussionLeader}</p>
           </div>
           <div className="next-pick">
             <p>Next Pick: </p>
             <p style={{ fontWeight: "bold" }}>{nextPick}</p>
-          </div>
+          </div> */}
         </section>
       </div>
     </div>
