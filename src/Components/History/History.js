@@ -59,7 +59,10 @@ import learningtree from '../../resources/previousbooks/learning-tree-january-20
 import againstinterpretation from '../../resources/previousbooks/against-interpretation-february-2024.jpg';
 import dunes from '../../resources/previousbooks/woman-in-the-dunes-march-2024.jpg';
 import willtochange from '../../resources/previousbooks/will-to-change-april-2024.jpg';
-import collectedfiction from '../../resources/previousbooks/collected-fiction-may-2024.jpg'
+import collectedfiction from '../../resources/previousbooks/collected-fiction-may-2024.jpg';
+import northanger from '../../resources/previousbooks/northanger-abbey-june-2024.jpg';
+import monkeywrench from '../../resources/previousbooks/the-monkey-wrench-gang-july-2024.jpg';
+
 
 
 const History = () => {
@@ -75,6 +78,22 @@ const History = () => {
         </div>
       </section>
       */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={monkeywrench} alt="The Monkey Wrench Gang - Edward Abbey"></img>
+        <div className="prev-book-info">
+          <p className="book-month">July 2024</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={northanger} alt="Northanger Abbey - Jane Austen"></img>
+        <div className="prev-book-info">
+          <p className="book-month">June 2024</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={collectedfiction} alt="Collected Fictions - Jorge Luis Borges"></img>
