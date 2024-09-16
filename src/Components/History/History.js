@@ -55,15 +55,14 @@ import segregation from "../../resources/previousbooks/segregation-august-2023.j
 import hex from "../../resources/previousbooks/hex-september-2023.jpg";
 import darling from "../../resources/previousbooks/darling-october-2023.jpg";
 import handmaid from "../../resources/previousbooks/handmaid-december-2023.jpg";
-import learningtree from '../../resources/previousbooks/learning-tree-january-2024.jpg';
-import againstinterpretation from '../../resources/previousbooks/against-interpretation-february-2024.jpg';
-import dunes from '../../resources/previousbooks/woman-in-the-dunes-march-2024.jpg';
-import willtochange from '../../resources/previousbooks/will-to-change-april-2024.jpg';
-import collectedfiction from '../../resources/previousbooks/collected-fiction-may-2024.jpg';
-import northanger from '../../resources/previousbooks/northanger-abbey-june-2024.jpg';
-import monkeywrench from '../../resources/previousbooks/the-monkey-wrench-gang-july-2024.jpg';
-
-
+import learningtree from "../../resources/previousbooks/learning-tree-january-2024.jpg";
+import againstinterpretation from "../../resources/previousbooks/against-interpretation-february-2024.jpg";
+import dunes from "../../resources/previousbooks/woman-in-the-dunes-march-2024.jpg";
+import willtochange from "../../resources/previousbooks/will-to-change-april-2024.jpg";
+import collectedfiction from "../../resources/previousbooks/collected-fiction-may-2024.jpg";
+import northanger from "../../resources/previousbooks/northanger-abbey-june-2024.jpg";
+import monkeywrench from "../../resources/previousbooks/the-monkey-wrench-gang-july-2024.jpg";
+import trickmirror from "../../resources/previousbooks/trick-mirror-august-2024.jpg";
 
 const History = () => {
   return (
@@ -80,46 +79,81 @@ const History = () => {
       */}
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={monkeywrench} alt="The Monkey Wrench Gang - Edward Abbey"></img>
+        <img
+          id="prev-book-cover"
+          src={trickmirror}
+          alt="Trick Mirror REFLECTIONS ON SELF-DELUSION - Jia Tolentino"
+        ></img>
+        <div className="prev-book-info">
+          <p className="book-month"></p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={monkeywrench}
+          alt="The Monkey Wrench Gang - Edward Abbey"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">July 2024</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Maeve</p>
         </div>
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={northanger} alt="Northanger Abbey - Jane Austen"></img>
+        <img
+          id="prev-book-cover"
+          src={northanger}
+          alt="Northanger Abbey - Jane Austen"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">June 2024</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Landon</p>
         </div>
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={collectedfiction} alt="Collected Fictions - Jorge Luis Borges"></img>
+        <img
+          id="prev-book-cover"
+          src={collectedfiction}
+          alt="Collected Fictions - Jorge Luis Borges"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">May 2024</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Trenton</p>
         </div>
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={willtochange} alt="The Will to Change: Men, Masculinity, and Love - bell hooks"></img>
+        <img
+          id="prev-book-cover"
+          src={willtochange}
+          alt="The Will to Change: Men, Masculinity, and Love - bell hooks"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">April 2024</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Robert</p>
         </div>
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={dunes} alt="The Woman In The Dunes - Kobo Abe"></img>
+        <img
+          id="prev-book-cover"
+          src={dunes}
+          alt="The Woman In The Dunes - Kobo Abe"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">March 2024</p>
           <p className="book-selector">Spencer</p>
         </div>
       </section>
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={againstinterpretation} alt="Against Interpretation - Susan Sontag"></img>
+        <img
+          id="prev-book-cover"
+          src={againstinterpretation}
+          alt="Against Interpretation - Susan Sontag"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">February 2024</p>
           <p className="book-selector">Dale</p>
@@ -127,7 +161,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={learningtree} alt="The Learning Tree - Gordon Parks"></img>
+        <img
+          id="prev-book-cover"
+          src={learningtree}
+          alt="The Learning Tree - Gordon Parks"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">January 2024</p>
           <p className="book-selector">Jonah</p>
@@ -135,7 +173,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={handmaid} alt="The Handmaid's Tale - Margaret Atwood"></img>
+        <img
+          id="prev-book-cover"
+          src={handmaid}
+          alt="The Handmaid's Tale - Margaret Atwood"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">December 2023</p>
           <p className="book-selector">Catherine</p>
