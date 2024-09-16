@@ -85,7 +85,7 @@ const History = () => {
           alt="Trick Mirror REFLECTIONS ON SELF-DELUSION - Jia Tolentino"
         ></img>
         <div className="prev-book-info">
-          <p className="book-month"></p>
+          <p className="book-month">August 2024</p>
           <p className="book-selector"></p>
         </div>
       </section>
