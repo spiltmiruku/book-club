@@ -64,6 +64,7 @@ import northanger from "../../resources/previousbooks/northanger-abbey-june-2024
 import monkeywrench from "../../resources/previousbooks/the-monkey-wrench-gang-july-2024.jpg";
 import trickmirror from "../../resources/previousbooks/trick-mirror-august-2024.jpg";
 import sunrise from '../../resources/previousbooks/sunrise-november-2024.jpg';
+import grainofwheat from '../../resources/previousbooks/a-grain-of-wheat-december-2024.jpg';
 
 const History = () => {
   return (
@@ -78,6 +79,13 @@ const History = () => {
         </div>
       </section>
       */}
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={grainofwheat} alt="A Grain of Wheat - Ngũgĩ wa Thiong'o"></img>
+        <div className="prev-book-info">
+          <p className="book-month">December 2024</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
       <section className="prev-book-display">
         <img id="prev-book-cover" src={sunrise} alt="An American Sunrise: Poems - Joy Harjo"></img>
         <div className="prev-book-info">
