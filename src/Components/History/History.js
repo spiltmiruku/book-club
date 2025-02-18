@@ -66,6 +66,7 @@ import trickmirror from "../../resources/previousbooks/trick-mirror-august-2024.
 import sunrise from '../../resources/previousbooks/sunrise-november-2024.jpg';
 import grainofwheat from '../../resources/previousbooks/a-grain-of-wheat-december-2024.jpg';
 import james from '../../resources/previousbooks/james-a-novel-january-2025.jpg';
+import noonebelongs from '../../resources/previousbooks/no-one-belongs-here-more-than-you-february-2025.jpg';
 
 const History = () => {
   return (
@@ -80,6 +81,15 @@ const History = () => {
         </div>
       </section>
       */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={noonebelongs} alt="No One Belongs Here More Than You - Miranda July"></img>
+        <div className="prev-book-info">
+          <p className="book-month">February 2025</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
+
       <section className="prev-book-display">
         <img id="prev-book-cover" src={james} alt="James: A Novel - Percival Everett"></img>
         <div className="prev-book-info">
