@@ -67,6 +67,7 @@ import sunrise from '../../resources/previousbooks/sunrise-november-2024.jpg';
 import grainofwheat from '../../resources/previousbooks/a-grain-of-wheat-december-2024.jpg';
 import james from '../../resources/previousbooks/james-a-novel-january-2025.jpg';
 import noonebelongs from '../../resources/previousbooks/no-one-belongs-here-more-than-you-february-2025.jpg';
+import cryinglot from '../../resources/previousbooks/the-crying-of-lot-49-march-2025.jpg';
 
 const History = () => {
   return (
@@ -81,6 +82,15 @@ const History = () => {
         </div>
       </section>
       */}
+
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={cryinglot} alt="The Crying of Lot 49 - Thomas Pynchon"></img>
+        <div className="prev-book-info">
+          <p className="book-month">March 2025</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
 
       <section className="prev-book-display">
         <img id="prev-book-cover" src={noonebelongs} alt="No One Belongs Here More Than You - Miranda July"></img>
