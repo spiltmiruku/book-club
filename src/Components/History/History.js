@@ -88,7 +88,7 @@ const History = () => {
         <img id="prev-book-cover" src={cryinglot} alt="The Crying of Lot 49 - Thomas Pynchon"></img>
         <div className="prev-book-info">
           <p className="book-month">March 2025</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Trenton</p>
         </div>
       </section>
 
@@ -96,7 +96,7 @@ const History = () => {
         <img id="prev-book-cover" src={noonebelongs} alt="No One Belongs Here More Than You - Miranda July"></img>
         <div className="prev-book-info">
           <p className="book-month">February 2025</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Robert</p>
         </div>
       </section>
 
@@ -111,7 +111,7 @@ const History = () => {
         <img id="prev-book-cover" src={grainofwheat} alt="A Grain of Wheat - Ngũgĩ wa Thiong'o"></img>
         <div className="prev-book-info">
           <p className="book-month">December 2024</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Dale</p>
         </div>
       </section>
       <section className="prev-book-display">
