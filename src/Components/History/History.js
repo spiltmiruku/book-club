@@ -104,7 +104,7 @@ const History = () => {
         <img id="prev-book-cover" src={james} alt="James: A Novel - Percival Everett"></img>
         <div className="prev-book-info">
           <p className="book-month">January 2025</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Spencer</p>
         </div>
       </section>
       <section className="prev-book-display">
@@ -118,7 +118,7 @@ const History = () => {
         <img id="prev-book-cover" src={sunrise} alt="An American Sunrise: Poems - Joy Harjo"></img>
         <div className="prev-book-info">
           <p className="book-month">November 2024</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Jonah</p>
         </div>
       </section>
       <section className="prev-book-display">
@@ -129,7 +129,7 @@ const History = () => {
         ></img>
         <div className="prev-book-info">
           <p className="book-month">August 2024</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Catherine</p>
         </div>
       </section>
       <section className="prev-book-display">
