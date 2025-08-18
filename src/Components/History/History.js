@@ -92,7 +92,7 @@ const History = () => {
 "></img>
         <div className="prev-book-info">
           <p className="book-month">August 2025</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Dale</p>
         </div>
       </section>
 
@@ -100,7 +100,7 @@ const History = () => {
         <img id="prev-book-cover" src={roadsidepicnic} alt="Roadside Picnic - Arkady Strugatsky and Boris Strugatsky"></img>
         <div className="prev-book-info">
           <p className="book-month">July 2025</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Jonah</p>
         </div>
       </section>
       
@@ -108,7 +108,7 @@ const History = () => {
         <img id="prev-book-cover" src={thedouble} alt="The Double - Fyodor Dostoevsky"></img>
         <div className="prev-book-info">
           <p className="book-month">June 2025</p>
-          <p className="book-selector"></p>
+          <p className="book-selector">Landon</p>
         </div>
       </section>
 
