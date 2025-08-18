@@ -71,7 +71,7 @@ import cryinglot from '../../resources/previousbooks/the-crying-of-lot-49-march-
 import smokinginbed from '../../resources/previousbooks/the-dangers-of-smoking-in-bed-april-2025.jpg';
 import thedouble from '../../resources/previousbooks/the-double-june-2025.jpg';
 import roadsidepicnic from '../../resources/previousbooks/roadside-picnic-july-2025.jpg';
-import evolutionofagency from '../../resources/previousbooks/the-evolution-of-agency-august-2025';
+import evolutionofagency from '../../resources/previousbooks/the-evolution-of-agency-august-2025.jpg';
 
 const History = () => {
   return (
