@@ -69,6 +69,9 @@ import james from '../../resources/previousbooks/james-a-novel-january-2025.jpg'
 import noonebelongs from '../../resources/previousbooks/no-one-belongs-here-more-than-you-february-2025.jpg';
 import cryinglot from '../../resources/previousbooks/the-crying-of-lot-49-march-2025.jpg';
 import smokinginbed from '../../resources/previousbooks/the-dangers-of-smoking-in-bed-april-2025.jpg';
+import thedouble from '../../resources/previousbooks/the-double-june-2025.jpg';
+import roadsidepicnic from '../../resources/previousbooks/roadside-picnic-july-2025.jpg';
+import evolutionofagency from '../../resources/previousbooks/the-evolution-of-agency-august-2025';
 
 const History = () => {
   return (
@@ -83,6 +86,31 @@ const History = () => {
         </div>
       </section>
       */}
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={evolutionofagency} alt="The Evolution of Agency: Behavioral Organization from Lizards to Humans - Michael Tomasello
+"></img>
+        <div className="prev-book-info">
+          <p className="book-month">August 2025</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={roadsidepicnic} alt="Roadside Picnic - Arkady Strugatsky and Boris Strugatsky"></img>
+        <div className="prev-book-info">
+          <p className="book-month">July 2025</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
+      
+      <section className="prev-book-display">
+        <img id="prev-book-cover" src={thedouble} alt="The Double - Fyodor Dostoevsky"></img>
+        <div className="prev-book-info">
+          <p className="book-month">June 2025</p>
+          <p className="book-selector"></p>
+        </div>
+      </section>
 
 
       <section className="prev-book-display">
