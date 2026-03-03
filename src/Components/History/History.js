@@ -63,15 +63,20 @@ import collectedfiction from "../../resources/previousbooks/collected-fiction-ma
 import northanger from "../../resources/previousbooks/northanger-abbey-june-2024.jpg";
 import monkeywrench from "../../resources/previousbooks/the-monkey-wrench-gang-july-2024.jpg";
 import trickmirror from "../../resources/previousbooks/trick-mirror-august-2024.jpg";
-import sunrise from '../../resources/previousbooks/sunrise-november-2024.jpg';
-import grainofwheat from '../../resources/previousbooks/a-grain-of-wheat-december-2024.jpg';
-import james from '../../resources/previousbooks/james-a-novel-january-2025.jpg';
-import noonebelongs from '../../resources/previousbooks/no-one-belongs-here-more-than-you-february-2025.jpg';
-import cryinglot from '../../resources/previousbooks/the-crying-of-lot-49-march-2025.jpg';
-import smokinginbed from '../../resources/previousbooks/the-dangers-of-smoking-in-bed-april-2025.jpg';
-import thedouble from '../../resources/previousbooks/the-double-june-2025.jpg';
-import roadsidepicnic from '../../resources/previousbooks/roadside-picnic-july-2025.jpg';
-import evolutionofagency from '../../resources/previousbooks/the-evolution-of-agency-august-2025.jpg';
+import sunrise from "../../resources/previousbooks/sunrise-november-2024.jpg";
+import grainofwheat from "../../resources/previousbooks/a-grain-of-wheat-december-2024.jpg";
+import james from "../../resources/previousbooks/james-a-novel-january-2025.jpg";
+import noonebelongs from "../../resources/previousbooks/no-one-belongs-here-more-than-you-february-2025.jpg";
+import cryinglot from "../../resources/previousbooks/the-crying-of-lot-49-march-2025.jpg";
+import smokinginbed from "../../resources/previousbooks/the-dangers-of-smoking-in-bed-april-2025.jpg";
+import thedouble from "../../resources/previousbooks/the-double-june-2025.jpg";
+import roadsidepicnic from "../../resources/previousbooks/roadside-picnic-july-2025.jpg";
+import evolutionofagency from "../../resources/previousbooks/the-evolution-of-agency-august-2025.jpg";
+import thechangeling from "../../resources/previousbooks/the-changeling-october-2025.jpg";
+import monstrilio from "../../resources/previousbooks/monstrilio-november-2025.jpg";
+import portnoyscomplaint from "../../resources/previousbooks/portnoys-complaint-december-2025.jpg";
+import iwhohaveneverknownmen from "../../resources/previousbooks/i-who-have-never-known-men-january-2026.jpg";
+import nineteeneightyfour from "../../resources/previousbooks/nineteen-eighty-four-february-2026.jpg";
 
 const History = () => {
   return (
@@ -88,8 +93,76 @@ const History = () => {
       */}
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={evolutionofagency} alt="The Evolution of Agency: Behavioral Organization from Lizards to Humans - Michael Tomasello
-"></img>
+        <img
+          id="prev-book-cover"
+          src={nineteeneightyfour}
+          alt="Nineteen Eighty-Four - George Orwell
+"
+        ></img>
+        <div className="prev-book-info">
+          <p className="book-month">February 2026</p>
+          <p className="book-selector">Katie</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={iwhohaveneverknownmen}
+          alt="I Who Have Never Known Men Paperback - Jacqueline Harpman"
+        ></img>
+        <div className="prev-book-info">
+          <p className="book-month">January 2026</p>
+          <p className="book-selector">Brandon</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={portnoyscomplaint}
+          alt="Portnoy's Complaint - Philip Roth
+"
+        ></img>
+        <div className="prev-book-info">
+          <p className="book-month">December 2025</p>
+          <p className="book-selector">Trenton</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={monstrilio}
+          alt="Monstrilio: A Novel - Gerardo Sámano Córdova
+"
+        ></img>
+        <div className="prev-book-info">
+          <p className="book-month">November 2025</p>
+          <p className="book-selector">Spencer</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={thechangeling}
+          alt="The Changeling - 
+Joy Williams"
+        ></img>
+        <div className="prev-book-info">
+          <p className="book-month">October 2025</p>
+          <p className="book-selector">Megan</p>
+        </div>
+      </section>
+
+      <section className="prev-book-display">
+        <img
+          id="prev-book-cover"
+          src={evolutionofagency}
+          alt="The Evolution of Agency: Behavioral Organization from Lizards to Humans - Michael Tomasello
+"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">August 2025</p>
           <p className="book-selector">Dale</p>
@@ -97,31 +170,46 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={roadsidepicnic} alt="Roadside Picnic - Arkady Strugatsky and Boris Strugatsky"></img>
+        <img
+          id="prev-book-cover"
+          src={roadsidepicnic}
+          alt="Roadside Picnic - Arkady Strugatsky and Boris Strugatsky"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">July 2025</p>
           <p className="book-selector">Jonah</p>
         </div>
       </section>
-      
+
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={thedouble} alt="The Double - Fyodor Dostoevsky"></img>
+        <img
+          id="prev-book-cover"
+          src={thedouble}
+          alt="The Double - Fyodor Dostoevsky"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">June 2025</p>
           <p className="book-selector">Landon</p>
         </div>
       </section>
 
-
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={smokinginbed} alt="The Dangers of Smoking in Bed - Mariana Enríquez"></img>
+        <img
+          id="prev-book-cover"
+          src={smokinginbed}
+          alt="The Dangers of Smoking in Bed - Mariana Enríquez"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">April 2025</p>
           <p className="book-selector">Catherine</p>
         </div>
       </section>
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={cryinglot} alt="The Crying of Lot 49 - Thomas Pynchon"></img>
+        <img
+          id="prev-book-cover"
+          src={cryinglot}
+          alt="The Crying of Lot 49 - Thomas Pynchon"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">March 2025</p>
           <p className="book-selector">Trenton</p>
@@ -129,7 +217,11 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={noonebelongs} alt="No One Belongs Here More Than You - Miranda July"></img>
+        <img
+          id="prev-book-cover"
+          src={noonebelongs}
+          alt="No One Belongs Here More Than You - Miranda July"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">February 2025</p>
           <p className="book-selector">Robert</p>
@@ -137,21 +229,33 @@ const History = () => {
       </section>
 
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={james} alt="James: A Novel - Percival Everett"></img>
+        <img
+          id="prev-book-cover"
+          src={james}
+          alt="James: A Novel - Percival Everett"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">January 2025</p>
           <p className="book-selector">Spencer</p>
         </div>
       </section>
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={grainofwheat} alt="A Grain of Wheat - Ngũgĩ wa Thiong'o"></img>
+        <img
+          id="prev-book-cover"
+          src={grainofwheat}
+          alt="A Grain of Wheat - Ngũgĩ wa Thiong'o"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">December 2024</p>
           <p className="book-selector">Dale</p>
         </div>
       </section>
       <section className="prev-book-display">
-        <img id="prev-book-cover" src={sunrise} alt="An American Sunrise: Poems - Joy Harjo"></img>
+        <img
+          id="prev-book-cover"
+          src={sunrise}
+          alt="An American Sunrise: Poems - Joy Harjo"
+        ></img>
         <div className="prev-book-info">
           <p className="book-month">November 2024</p>
           <p className="book-selector">Jonah</p>
